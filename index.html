@@ -40,7 +40,7 @@
         </div>
     </section>
 
-    <section id="services" class="services">
+    <section id="services" class="services reveal">
         <div class="container">
             <div class="section-header">
                 <h2>Nos Expertises Techniques</h2>
@@ -81,7 +81,35 @@
         </div>
     </section>
 
-    <section id="about" class="vision-section" style="background-color: var(--bg-light); padding: 80px 0;">
+    <!-- Stats Section -->
+    <section class="stats-section reveal">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-hard-hat"></i></div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Projets Réalisés</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-calendar-check"></i></div>
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Années d'Expertise</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-flask"></i></div>
+                    <div class="stat-number" data-target="1200">0</div>
+                    <div class="stat-label">Essais Laboratoire / an</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-check-circle"></i></div>
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Taux de Conformité %</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="vision-section reveal" style="background-color: var(--bg-light); padding: 80px 0;">
         <div class="container">
             <div style="display: flex; align-items: center; gap: 50px; flex-wrap: wrap; justify-content: center;">
                 <div style="flex: 1; min-width: 300px; text-align: center;">
@@ -98,7 +126,7 @@
         </div>
     </section>
 
-    <section id="lab" class="lab">
+    <section id="lab" class="lab reveal">
         <div class="container">
             <h2>La Rigueur Scientifique au Cœur de nos Analyses</h2>
             <div class="lab-content">
@@ -112,28 +140,28 @@
         </div>
     </section>
 
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio reveal">
         <div class="container">
             <div class="section-header">
-                <h2>Nos Réalisations & Engagements</h2>
+                <h2>Nos Réalisations &amp; Engagements</h2>
                 <p>GEOSAFE s'implique activement dans les grands projets d'infrastructure et la formation technique nationale.</p>
             </div>
             <div class="portfolio-grid">
-                <div class="project-card">
+                <div class="project-card reveal">
                     <img src="geosafe_port_project_hd_png_1778202827645.png" alt="SIPORTS 2026 - Expertise Maritime">
                     <div class="project-overlay">
                         <h3>SIPORTS 2024</h3>
                         <p>Partenaire technique pour le Salon International des Ports - Expertise maritime et portuaire.</p>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card reveal">
                     <img src="geosafe_highway_project_hd_png_1778202848895.png" alt="Infrastructure Routière - Laâyoune">
                     <div class="project-overlay">
                         <h3>Aménagements Routiers</h3>
                         <p>Expertise géotechnique pour les terrassements et ouvrages d'art majeurs au Maroc.</p>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card reveal">
                     <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop" alt="Excavations Urbaines">
                     <div class="project-overlay">
                         <h3>Soutènements Urbains</h3>
@@ -144,7 +172,86 @@
         </div>
     </section>
 
-    <section id="quote" class="quote">
+    <!-- Partners Section -->
+    <section class="partners-section reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ils Nous Font Confiance</h2>
+                <p>GEOSAFE collabore avec les acteurs majeurs de l'infrastructure au Maroc.</p>
+            </div>
+            <div class="partners-marquee">
+                <div class="partners-track">
+                    <span>ADM</span>
+                    <span>ONCF</span>
+                    <span>OCP</span>
+                    <span>NADOR WEST MED</span>
+                    <span>ANP</span>
+                    <span>TANGER MED</span>
+                    <span>MINISTÈRE DE L'ÉQUIPEMENT</span>
+                    <span>MASEN</span>
+                    <!-- Duplicate for seamless loop -->
+                    <span>ADM</span>
+                    <span>ONCF</span>
+                    <span>OCP</span>
+                    <span>NADOR WEST MED</span>
+                    <span>ANP</span>
+                    <span>TANGER MED</span>
+                    <span>MINISTÈRE DE L'ÉQUIPEMENT</span>
+                    <span>MASEN</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Questions Fréquentes</h2>
+                <p>Comprendre l'ingénierie du sol pour mieux décider.</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                        <h4>Quelle est la différence entre une étude G1 et G2 ?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>L'étude G1 est une étude préliminaire qui identifie les risques géologiques majeurs du site. L'étude G2 (phase AVP et PRO) va plus loin en dimensionnant précisément les fondations et en fournissant des recommandations constructives détaillées.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                        <h4>Pourquoi une étude de sol est-elle obligatoire ?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Au Maroc, l'étude géotechnique est rendue obligatoire par le RPS 2011 pour toute construction en zone sismique. Elle permet d'éviter les sinistres, les surcoûts et garantit la sécurité structurelle de votre ouvrage.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                        <h4>Réalisez-vous des analyses de risque sismique ?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oui, nous intégrons systématiquement l'analyse RPS2011/2000 dans nos études pour garantir la conformité parasismique de vos structures au Maroc. Nous réalisons également des études de liquéfaction des sols.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">
+                        <h4>Dans quelles villes intervenez-vous ?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>GEOSAFE intervient sur l'ensemble du territoire marocain : Rabat, Casablanca, Tanger, Marrakech, Agadir, Laâyoune, Nador et toutes les régions. Nous disposons d'équipes mobiles pour les zones reculées.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="quote reveal">
         <div class="container">
             <div class="section-header">
                 <h2>Démarrer une Collaboration</h2>
