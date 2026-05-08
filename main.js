@@ -57,3 +57,18 @@ if (form) {
         setTimeout(() => { btn.textContent = orig; btn.style.background = ''; btn.disabled = false; this.reset(); }, 3000);
     });
 }
+
+// Loading Screen
+window.addEventListener('load', () => {
+    const loader = document.getElementById('loader');
+    if (loader) { setTimeout(() => { loader.classList.add('hidden'); }, 1800); }
+});
+
+// Back to Top Button
+const backBtn = document.querySelector('.back-to-top');
+if (backBtn) {
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 500) { backBtn.classList.add('visible'); }
+        else { backBtn.classList.remove('visible'); }
+    });
+}
