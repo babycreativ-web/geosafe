@@ -257,40 +257,91 @@
                 <h2>Démarrer une Collaboration</h2>
                 <p>Confiez vos études de sol à des experts. Remplissez le formulaire ci-dessous pour une demande de devis personnalisée.</p>
             </div>
-            <div class="quote-form">
-                <form>
-                    <div class="form-grid">
-                        <div class="form-group">
-                            <label>Votre Nom / Entreprise</label>
-                            <input type="text" placeholder="Ex: Cabinet d'Architecture X" required>
-                        </div>
-                        <div class="form-group">
-                            <label>Email Professionnel</label>
-                            <input type="email" placeholder="contact@geosafe.ma" required>
-                        </div>
-                    </div>
-                    <div class="form-grid">
-                        <div class="form-group">
-                            <label>Type de Projet</label>
-                            <select>
-                                <option>Excavations / Soutènement</option>
-                                <option>Fondations Spéciales</option>
-                                <option>Stabilité de Talus</option>
-                                <option>Infrastructure Routière/Portuaire</option>
-                                <option>Autre</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Localisation du Projet</label>
-                            <input type="text" placeholder="Ex: Rabat, Casablanca, Tanger...">
+            <div class="quote-layout">
+                <!-- Contact Info Sidebar -->
+                <div class="quote-sidebar">
+                    <h3>Contactez-nous directement</h3>
+                    <div class="sidebar-item">
+                        <div class="sidebar-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <strong>Téléphone</strong>
+                            <p>+212 6 73 16 16 11</p>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label>Description des Besoins</label>
-                        <textarea placeholder="Décrivez brièvement les prestations souhaitées (Sondage, G2 PRO, Dossier d'exécution...)"></textarea>
+                    <div class="sidebar-item">
+                        <div class="sidebar-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <strong>Email</strong>
+                            <p>contact@geosafe.ma</p>
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary" style="width: 100%;">Envoyer la demande de devis</button>
-                </form>
+                    <div class="sidebar-item">
+                        <div class="sidebar-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <strong>Adresse</strong>
+                            <p>Imm 7, Rue Moulay Rachid, Hassan, Rabat</p>
+                        </div>
+                    </div>
+                    <div class="sidebar-item">
+                        <div class="sidebar-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <strong>Horaires</strong>
+                            <p>Lun - Ven : 8h30 - 18h00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Form -->
+                <div class="quote-form">
+                    <form>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label><i class="fas fa-user"></i> Votre Nom / Entreprise</label>
+                                <input type="text" placeholder="Ex: Cabinet d'Architecture X" required>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-envelope"></i> Email Professionnel</label>
+                                <input type="email" placeholder="contact@votreentreprise.ma" required>
+                            </div>
+                        </div>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label><i class="fas fa-phone"></i> Téléphone</label>
+                                <input type="tel" placeholder="+212 6XX XXX XXX">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-hard-hat"></i> Type de Projet</label>
+                                <select>
+                                    <option value="" disabled selected>Choisir un type de projet...</option>
+                                    <option>Étude G1 - Étude préliminaire</option>
+                                    <option>Étude G2 AVP - Avant-Projet</option>
+                                    <option>Étude G2 PRO - Phase Projet</option>
+                                    <option>Excavations / Soutènement</option>
+                                    <option>Fondations Spéciales</option>
+                                    <option>Stabilité de Talus</option>
+                                    <option>Infrastructure Routière/Portuaire</option>
+                                    <option>Autre</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label><i class="fas fa-map-marker-alt"></i> Localisation du Projet</label>
+                                <input type="text" placeholder="Ex: Rabat, Casablanca, Tanger...">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fas fa-ruler-combined"></i> Surface approximative</label>
+                                <input type="text" placeholder="Ex: 500 m², 2 hectares...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-file-alt"></i> Description des Besoins</label>
+                            <textarea placeholder="Décrivez brièvement les prestations souhaitées (Sondage, G2 PRO, Dossier d'exécution, nombre de niveaux, type de construction...)"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">
+                            <i class="fas fa-paper-plane"></i> Envoyer la demande de devis
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
