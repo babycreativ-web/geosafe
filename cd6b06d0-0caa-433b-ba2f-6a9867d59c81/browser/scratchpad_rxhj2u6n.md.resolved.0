@@ -1,8 +1,0 @@
-# Task: Verify GEOSAFE Website Header
-
-## Checklist
-- [x] Navigate to http://localhost:8080?v=3
-- [x] Capture screenshot of the header
-- [ ] Verify horizontal alignment of logo, nav links, and button (FAILED: Elements are stacking)
-- [ ] Verify professional/elegant look of the button
-- [ ] Investigate computed styles if alignment is incorrect
