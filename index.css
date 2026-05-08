@@ -33,6 +33,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Fix sticky header overlap on anchor scroll */
+section[id] {
+    scroll-margin-top: 100px;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     color: var(--text-main);
@@ -95,18 +100,21 @@ ul {
 .btn-primary:hover {
     background: var(--accent-hover);
     transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
+    box-shadow: 0 8px 25px rgba(255, 107, 0, 0.35);
 }
 
 .btn-outline {
-    background: transparent;
-    border: 2px solid var(--primary);
-    color: var(--primary);
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    color: white;
+    backdrop-filter: blur(5px);
 }
 
 .btn-outline:hover {
-    background: var(--primary);
+    background: rgba(255, 255, 255, 0.25);
+    border-color: white;
     color: white;
+    transform: translateY(-2px);
 }
 
 header {
@@ -614,14 +622,21 @@ header {
 }
 
 .quote-layout {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 0;
+    display: flex;
     max-width: 1000px;
     margin: 0 auto;
     border-radius: 16px;
     overflow: hidden;
     box-shadow: 0 20px 60px rgba(10, 37, 64, 0.12);
+}
+
+.quote-layout .quote-sidebar {
+    flex: 1;
+    min-width: 280px;
+}
+
+.quote-layout .quote-form {
+    flex: 2;
 }
 
 .quote-sidebar {
