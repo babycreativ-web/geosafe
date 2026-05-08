@@ -1,0 +1,70 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Zu den Hauptinhalten springen
+Hilfe zur Barrierefreiheit
+Feedback zur Barrierefreiheit
+[0] (63,56)<a aria-label='Weiter zur Google-Startseite' href='https://www.google.com/webhp?hl=de&sa=X&ved=0ahUKEwjkhJj3taiUAxVuxAIHHVBBJOYQPAgJ' id='logo' title='Weiter zur Google-Startseite' />
+[1] (292,55)<textarea aria-label='Suche' class='gLFyf' id='APjFqb' role='combobox' />
+[2] (477,55)<div  />
+	[3] (476,55)<div aria-label='Löschen' class='vOY7J M2vV3' role='button' />
+		[4] (476,55)<span  />
+	[5] (488,55)<span  />
+[6] (501,55)<div aria-label='Sprachsuche' class='XDyW0e' role='button' />
+[7] (522,55)<div aria-label='Suche anhand von Bildern' class='nDcEnd' role='button' />
+[8] (546,55)<button aria-label='Suche' class='HZVG1b Tg7LZd' />
+	[9] (542,55)<div  />
+		[10] (542,55)<span  />
+[11] (954,55)<a aria-label='Google-Apps' class='gb_C' href='https://www.google.co.ma/intl/de/about/products?tab=wh' role='button' />
+[12] (979,55)<a aria-label='Google-Konto: Reda Zaryouh  
+(zaryouhreda6@gmail.com)' class='gb_C gb_5a' href='https://accounts.google.com/SignOutOptions?hl=de&continue=https://www.google.com/search%3Fq%3Dsite%253Alinkedin.com%252Fcompany%252Fgeosafebet%2Babout%2BOR%2Bposts&ec=futura_srp_og_si_72236_p' role='button' />
+[13] (135,121)<a class='XVMlrc C6AK7c' href='/search?q=site:linkedin.com/company/geosafebet+about+OR+posts&sca_esv=144a354d1415577e&sxsrf=ANbL-n775ARCz716_WX-InQBL_EDJrgRvw:1778199657060&udm=50&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6EUhXKyXhB5BaMxx7N7PXnoavS90JVimtteqVmaoQfEvjPlbLKyaJLfOJFT5pE7Jo-NeC4i-HNSE2KLl0sfbg5fcV6hlgOKeGmX5hB20cD4jyQx9gT04RxN8YpTQB19o4niM7Ng&aep=1&ntc=1&sa=X&ved=2ahUKEwjkhJj3taiUAxVuxAIHHVBBJOYQ2J8OegQIDhAD' />
+	[14] (135,121)<div  />
+		[15] (135,130)<div  />
+			[16] (135,124)<span  />
+				[17] (135,124)<span >KI‑Modus />
+[18] (170,121)<a class='C6AK7c' role='link' />
+	Alle
+[19] (197,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n775ARCz716_WX-InQBL_EDJrgRvw:1778199657060&udm=2&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6EUhXKyXhB5BaMxx7N7PXnoavS90JVimtteqVmaoQfEvjPlbLKyaJLfOJFT5pE7Jo-NeC4i-HNSE2KLl0sfbg5fcV6hlgOKeGmX5hB20cD4jyQx9gT04RxN8YpTQB19o4niM7Ng&q=site:linkedin.com/company/geosafebet+about+OR+posts&sa=X&ved=2ahUKEwjkhJj3taiUAxVuxAIHHVBBJOYQtKgLegQIFBAB' />
+	[20] (197,121)<div  />
+		[21] (197,130)<span >Bilder />
+[22] (230,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n775ARCz716_WX-InQBL_EDJrgRvw:1778199657060&udm=7&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6EUhXKyXhB5BaMxx7N7PXnoavS90JVimtteqVmaoQfEvjPlbLKyaJLfOJFT5pE7Jo-NeC4i-HNSE2KLl0sfbg5fcV6hlgOKeGmX5hB20cD4jyQx9gT04RxN8YpTQB19o4niM7Ng&q=site:linkedin.com/company/geosafebet+about+OR+posts&sa=X&ved=2ahUKEwjkhJj3taiUAxVuxAIHHVBBJOYQtKgLegQIERAB' />
+	[23] (230,121)<div  />
+		[24] (230,130)<span >Videos />
+[25] (276,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n775ARCz716_WX-InQBL_EDJrgRvw:1778199657060&udm=39&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6EUhXKyXhB5BaMxx7N7PXnoavS90JVimtteqVmaoQfEvjPlbLKyaJLfOJFT5pE7Jo-NeC4i-HNSE2KLl0sfbg5fcV6hlgOKeGmX5hB20cD4jyQx9gT04RxN8YpTQB19o4niM7Ng&q=site:linkedin.com/company/geosafebet+about+OR+posts&sa=X&ved=2ahUKEwjkhJj3taiUAxVuxAIHHVBBJOYQs6gLegQIEBAB' />
+	[26] (276,121)<div  />
+		[27] (276,130)<span >Kurze Videos />
+[28] (319,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n775ARCz716_WX-InQBL_EDJrgRvw:1778199657060&q=site:linkedin.com/company/geosafebet+about+OR+posts&tbm=nws&source=lnms&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6EUhXKyXhB5BaMxx7N7PXnoavS90JVimtteqVmaoQfEvjPlbLKyaJLfOJFT5pE7Jo-NeC4i-HNSE2KLl0sfbg5fcV6hlgOKeGmX5hB20cD4jyQx9gT04RxN8YpTQB19o4niM7Ng&sa=X&ved=2ahUKEwjkhJj3taiUAxVuxAIHHVBBJOYQ0pQJegQIExAB' />
+	[29] (319,121)<div  />
+		[30] (319,130)<span >News />
+[31] (348,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n775ARCz716_WX-InQBL_EDJrgRvw:1778199657060&udm=web&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6EUhXKyXhB5BaMxx7N7PXnoavS90JVimtteqVmaoQfEvjPlbLKyaJLfOJFT5pE7Jo-NeC4i-HNSE2KLl0sfbg5fcV6hlgOKeGmX5hB20cD4jyQx9gT04RxN8YpTQB19o4niM7Ng&q=site:linkedin.com/company/geosafebet+about+OR+posts&sa=X&ved=2ahUKEwjkhJj3taiUAxVuxAIHHVBBJOYQs6gLegQIEhAB' />
+	[32] (348,121)<div  />
+		[33] (348,130)<span >Web />
+[34] (381,121)<div class='mTpL7c' role='button' />
+	[35] (381,121)<div  />
+		[36] (381,130)<div  />
+			[37] (376,124)<span >Mehr />
+			[38] (389,124)<span  />
+[39] (426,121)<div class='mOKdDc' id='hdtb-tls' role='button' />
+	[40] (426,121)<div  />
+		[41] (426,130)<div  />
+			[42] (422,124)<span >Suchfilter />
+			[43] (441,124)<span  />
+Suchergebnisse
+Es wurden keine mit deiner Suchanfrage -
+site:linkedin.com/company/geosafebet about OR posts
+- übereinstimmenden Dokumente gefunden.
+Vorschläge:
+Achte darauf, dass alle Wörter richtig geschrieben sind.
+Probiere es mit anderen Suchbegriffen.
+Probiere es mit allgemeineren Suchbegriffen.
+Probiere es mit weniger Suchbegriffen.
+Fußzeilenlinks
+Ergebnisse sind personalisiert
+-
+[44] (283,974)<a href='https://www.google.com/search?q=site:linkedin.com/company/geosafebet+about+OR+posts&peek_pws=0&sxsrf=ANbL-n775ARCz716_WX-InQBL_EDJrgRvw:1778199657060' />
+	[45] (283,974)<span  />
+		[46] (283,974)<span >Ohne Personalisierung ausprobieren />
+
+</current_dom>

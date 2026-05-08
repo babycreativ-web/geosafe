@@ -1,0 +1,84 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (767,40)<a class='nav__logo-link link-no-visited-state z-1 mr-auto min-h-[52px] flex items-center babybear:z-0 hover:no-underline focus:no-underline active:no-underline
+           babymamabear:mr-3' href='/?trk=organization_guest_nav-header-logo'>‏LinkedIn />
+	‏LinkedIn
+	[1] (767,40)<icon  />
+[2] (584,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        min-w-8
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary' href='https://www.linkedin.com/top-content?trk=organization_guest_guest_nav_menu_topContent' />
+	[3] (584,32)<icon  />
+	[4] (584,53)<span >أفضل محتوى />
+[5] (542,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        min-w-8
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary' href='https://www.linkedin.com/pub/dir/+/+?trk=organization_guest_guest_nav_menu_people' />
+	[6] (542,32)<icon  />
+	[7] (542,53)<span >الأشخاص />
+[8] (501,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        min-w-8
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary' href='https://www.linkedin.com/learning/search?trk=organization_guest_guest_nav_menu_learning' />
+	[9] (501,32)<icon  />
+	[10] (501,53)<span >التعلم />
+[11] (459,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        min-w-8
+        flex-col mx-1 babybear:mx-0
+        top-nav-link--selected text-color-text visited:text-color-text border-solid border-b-2 border-color-text' href='https://www.linkedin.com/jobs/search?trk=organization_guest_guest_nav_menu_jobs' />
+	[12] (459,31)<icon  />
+	[13] (459,52)<span >الوظائف />
+[14] (417,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        min-w-8
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary' href='https://www.linkedin.com/games?trk=organization_guest_guest_nav_menu_games' />
+	[15] (417,32)<icon  />
+	[16] (417,53)<span >الألعاب />
+[17] (367,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-[96px] px-1 border-solid border-l-1 border-r-1 babybear:border-r-0 border-color-border-faint
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary' href='ms-windows-store://pdp/?ProductId=9WZDNCRFJ4Q7&mode=mini&cid=guest_nav_upsell&trk=organization_guest_guest_nav_menu_windows' />
+	[18] (367,32)<icon  />
+	[19] (367,53)<span >الحصول على التطبيق />
+[20] (294,40)<a class='nav__button-secondary btn-secondary-emphasis ml-3 btn-md' href='https://www.linkedin.com/login/ar?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fgeosafebet&fromSignIn=true&trk=organization_guest_nav-header-signin'>تسجيل الدخول />
+[21] (232,40)<a class='nav__button-tertiary btn-primary btn-md' href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fgeosafebet&_l=ar&trk=organization_guest_nav-header-join'>انضم الآن />
+‏٣٦٠‏ ‏متابع‏
+‏٣‏ شهر
+🔹 Une expérience enrichissante au Forum International de la Construction – FIC26 🔹
+
+Nous avons eu l’honneur d’être invités au Forum International de la Construction, qui s’est tenu à Casablanca du 8 au 10 janvier 2026, un rendez-vous stratégique réunissant les acteurs majeurs du secteur BTP, de l’innovation et des technologies durables.
+
+Un grand merci à
+[22] (597,213)<a class='link' href='https://ma.linkedin.com/in/ismail-youssef-2a97b0149?trk=organization_guest_main-feed-card-text'>Ismail YOUSSEF />
+de
+[23] (653,213)<a class='link' href='https://ma.linkedin.com/company/geosef.com?trk=organization_guest_main-feed-card-text'>GEOSEF />
+pour l’invitation et l’organisation de moments d’échange précieux.
+
+Lors de cet événement, nous avons eu l’occasion d’échanger avec nos pairs, de découvrir les dernières innovations et d’aborder ensemble les défis actuels de notre industrie.
+En particulier, Ismail a organisé une table ronde réunissant
+[24] (736,339)<a class='link' href='https://ma.linkedin.com/in/youssefchaqqour?trk=organization_guest_main-feed-card-text'>Youssef CHAQQOUR />
+de
+[25] (542,360)<a class='link' href='https://ma.linkedin.com/company/geosafebet?trk=organization_guest_main-feed-card-text'>GEOSAFE />
+,
+[26] (597,360)<a class='link' href='https://ma.linkedin.com/in/soufiane-nidlahadj-700454153?trk=organization_guest_main-feed-card-text'>Soufiane Nidlahadj />
+de
+[27] (703,360)<a class='link' href='https://ma.linkedin.com/company/g3fsp-fondations-sp%C3%A9ciales-pieux?trk=organization_guest_main-feed-card-text'>G3FSP Fondations Spéciales Pieux />
+et Abdessamad Eddahbi de
+[28] (677,381)<a class='link' href='https://ma.linkedin.com/company/g3c-construction?trk=organization_guest_main-feed-card-text'>G3C />
+autour d’un thème crucial :
+
+Les nouvelles solutions de tirants d’ancrage, avec un focus sur les innovations produits, les brevets, et les certifications techniques.
+
+
+ Ces échanges illustrent parfaitement l’esprit du FIC26 : collaboration, innovation et partage d’expertise entre professionnels engagés dans la transformation du secteur de la construction au Maroc
+[29] (531,590)<a class='link' href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Ffic26&_l=ar&trk=organization_guest_main-feed-card-text'>#FIC26 />
+[30] (570,590)<a class='link' href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fconstruction&_l=ar&trk=organization_guest_main-feed-card-text'>#Construction />
+[31] (617,590)<a class='link' href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Finnovation&_l=ar&trk=organization_guest_main-feed-card-text'>#Innovation />
+[32] (649,590)<a class='link' href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fbtp&_l=ar&trk=organization_guest_main-feed-card-text'>#BTP />
+[33] (687,590)<a class='link' href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2FgAezotechnique&_l=ar&trk=organization_guest_main-feed-card-text'>#Géotechnique />
+[34] (744,590)<a class='link' href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Ftirantsancrage&_l=ar&trk=organization_guest_main-feed-card-text'>#TirantsAncrage />
+[35] (751,610)<a class='link' href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fpartenariat&_l=ar&trk=organization_guest_main-feed-card-text'>#Partenariat />
+
+</current_dom>

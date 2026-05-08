@@ -1,0 +1,19 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,20)<a class='logo' href='#'>GEO />
+	[1] (246,20)<span >SAFE />
+[2] (218,54)<a href='#services'>Expertises />
+[3] (269,54)<a href='#portfolio'>Portfolio />
+[4] (322,54)<a href='#lab'>Laboratoire />
+[5] (377,54)<a href='#about'>À Propos />
+[6] (425,54)<a href='#quote'>Contact />
+[7] (252,96)<a class='btn btn-primary' href='#quote'>Demander un Devis />
+Ingénierie Géotechnique de Pointe
+L'Expertise du Sol pour vos Projets d'Avenir
+GEOSAFE accompagne les architectes, promoteurs et acteurs publics dans la sécurisation et l'optimisation de leurs structures. "Build on certainty."
+[8] (389,711)<a class='btn btn-primary' href='#services'>Découvrir nos services />
+[9] (517,711)<a class='btn btn-outline' href='#portfolio'>Voir nos réalisations />
+
+</current_dom>

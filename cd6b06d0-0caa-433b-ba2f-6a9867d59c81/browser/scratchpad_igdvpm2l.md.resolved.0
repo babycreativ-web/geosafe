@@ -1,0 +1,10 @@
+# Header Verification Progress
+
+- [ ] Capture full-page and focused header screenshots
+- [ ] Inspect "Demander un Devis" button computed styles (border, background)
+- [ ] Check `.nav-container` display property and child alignment
+- [ ] Record findings and report
+
+## Observations
+- Preliminary DOM check suggests elements are stacked (different Y coordinates).
+- Header button appears to have a solid background instead of being transparent with a border.

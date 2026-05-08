@@ -1,0 +1,139 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Zu den Hauptinhalten springen
+Hilfe zur Barrierefreiheit
+Feedback zur Barrierefreiheit
+[0] (63,56)<a aria-label='Weiter zur Google-Startseite' href='https://www.google.com/webhp?hl=de&sa=X&ved=0ahUKEwiX4Z7ItaiUAxVx9AIHHfuMAswQPAgJ' id='logo' title='Weiter zur Google-Startseite' />
+[1] (292,55)<textarea aria-label='Suche' class='gLFyf' id='APjFqb' role='combobox' />
+[2] (477,55)<div  />
+	[3] (476,55)<div aria-label='Löschen' class='vOY7J M2vV3' role='button' />
+		[4] (476,55)<span  />
+	[5] (488,55)<span  />
+[6] (501,55)<div aria-label='Sprachsuche' class='XDyW0e' role='button' />
+[7] (522,55)<div aria-label='Suche anhand von Bildern' class='nDcEnd' role='button' />
+[8] (546,55)<button aria-label='Suche' class='HZVG1b Tg7LZd' />
+	[9] (542,55)<div  />
+		[10] (542,55)<span  />
+[11] (954,55)<a aria-label='Google-Apps' class='gb_C' href='https://www.google.co.ma/intl/de/about/products?tab=wh' role='button' />
+[12] (979,55)<a aria-label='Google-Konto: Reda Zaryouh  
+(zaryouhreda6@gmail.com)' class='gb_C gb_5a' href='https://accounts.google.com/SignOutOptions?hl=de&continue=https://www.google.com/search%3Fq%3DGEOSAFE%2BMaroc%2Blaboratoire%2Bg%25C3%25A9otechnique%2Bprojets&ec=futura_srp_og_si_72236_p' role='button' />
+[13] (136,121)<a class='XVMlrc C6AK7c' href='/search?q=GEOSAFE+Maroc+laboratoire+g%C3%A9otechnique+projets&sca_esv=144a354d1415577e&sxsrf=ANbL-n6AJ01mfhpz93AZHsuTXTnjTfHNQQ:1778199558603&udm=50&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&aep=1&ntc=1&sa=X&ved=2ahUKEwiX4Z7ItaiUAxVx9AIHHfuMAswQ2J8OegQIERAD' />
+	[14] (136,121)<div  />
+		[15] (136,130)<div  />
+			[16] (136,124)<span  />
+				[17] (136,124)<span >KI‑Modus />
+[18] (171,121)<a class='C6AK7c' role='link' />
+	Alle
+[19] (200,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n6AJ01mfhpz93AZHsuTXTnjTfHNQQ:1778199558603&udm=2&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&q=GEOSAFE+Maroc+laboratoire+g%C3%A9otechnique+projets&sa=X&ved=2ahUKEwiX4Z7ItaiUAxVx9AIHHfuMAswQtKgLegQIFxAB' />
+	[20] (200,121)<div  />
+		[21] (200,130)<span >Bilder />
+[22] (234,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n6AJ01mfhpz93AZHsuTXTnjTfHNQQ:1778199558603&udm=7&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&q=GEOSAFE+Maroc+laboratoire+g%C3%A9otechnique+projets&sa=X&ved=2ahUKEwiX4Z7ItaiUAxVx9AIHHfuMAswQtKgLegQIFhAB' />
+	[23] (234,121)<div  />
+		[24] (234,130)<span >Videos />
+[25] (280,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n6AJ01mfhpz93AZHsuTXTnjTfHNQQ:1778199558603&udm=39&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&q=GEOSAFE+Maroc+laboratoire+g%C3%A9otechnique+projets&sa=X&ved=2ahUKEwiX4Z7ItaiUAxVx9AIHHfuMAswQs6gLegQIFRAB' />
+	[26] (280,121)<div  />
+		[27] (280,130)<span >Kurze Videos />
+[28] (324,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n6AJ01mfhpz93AZHsuTXTnjTfHNQQ:1778199558603&q=GEOSAFE+Maroc+laboratoire+g%C3%A9otechnique+projets&tbm=nws&source=lnms&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&sa=X&ved=2ahUKEwiX4Z7ItaiUAxVx9AIHHfuMAswQ0pQJegQIFBAB' />
+	[29] (324,121)<div  />
+		[30] (324,130)<span >News />
+[31] (355,121)<a class='C6AK7c' href='https://maps.google.com/maps?sca_esv=144a354d1415577e&output=search&q=GEOSAFE+Maroc+laboratoire+g%C3%A9otechnique+projets&source=lnms&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&entry=mc&ved=1t:200715&ictx=111' />
+	[32] (355,121)<div  />
+		[33] (355,130)<span >Maps />
+[34] (390,121)<div class='mTpL7c' role='button' />
+	[35] (390,121)<div  />
+		[36] (390,130)<div  />
+			[37] (386,124)<span >Mehr />
+			[38] (399,124)<span  />
+[39] (438,121)<div class='mOKdDc' id='hdtb-tls' role='button' />
+	[40] (438,121)<div  />
+		[41] (438,130)<div  />
+			[42] (433,124)<span >Suchfilter />
+			[43] (455,124)<span  />
+Suchergebnisse
+Übersicht mit KI
+[44] (688,195)<div aria-label='Informationen zu diesem Ergebnis' class='Mtffrd' role='button' />
+GEOSAFE
+est un bureau d'études techniques marocain spécialisé en
+ingénierie géotechnique
+, fondé en juin 2025 par Youssef Chaqqour. Basée au Maroc, cette structure se consacre à l'étude du comportement des sols et à la maîtrise des défis géotechniques pour des projets de construction et d'infrastructures.
+Expertises et Missions de GEOSAFE
+GEOSAFE intervient sur l'ensemble du territoire marocain pour garantir la sécurité et la durabilité des ouvrages, en proposant notamment :
+Analyse approfondie des données géotechniques :
+Étude des rapports de sondages, caractérisation des sols, et modélisation géotechnique.
+Interprétation rigoureuse :
+Évaluation des risques liés au terrain (tassements, glissements, liquéfaction).
+Expertise en ingénierie :
+Recommandations techniques pour les fondations (superficielles ou profondes) et les soutènements.
+Accompagnement de projets :
+Suivi géotechnique des projets de construction (bâtiments, infrastructures).
+Contexte de la Géotechnique au Maroc
+Les laboratoires et bureaux d'études comme GEOSAFE jouent un rôle crucial au Maroc pour :
+Sécuriser les chantiers :
+Éviter les fissures et effondrements grâce à une meilleure compréhension du sol.
+Optimiser les coûts :
+Concevoir des fondations adaptées et économiques.
+Répondre aux normes :
+Réaliser des campagnes de sondages (carottés, pressiométriques) et des essais en laboratoire (limites d'Atterberg, cisaillement).
+[45] (406,538)<div aria-label='Button „Mehr anzeigen“ der Übersicht mit KI' class='Jzkafd' role='button' />
+	[46] (284,538)<div  />
+		[47] (284,538)<div >Mehr anzeigen />
+			Mehr anzeigen
+			[48] (312,538)<span  />
+Résultats Web
+[49] (165,659)<a class='zReHs' href='https://ma.linkedin.com/company/geosafebet' />
+	[50] (143,681)<h3 >GEOSAFE />
+	[51] (165,644)<div  />
+		[52] (165,644)<div  />
+			[53] (127,644)<span  />
+				[54] (127,644)<div  />
+					[55] (127,644)<img  />
+			[56] (175,644)<div  />
+				[57] (175,635)<div  />
+					[58] (175,635)<span >LinkedIn · GEOSAFE />
+				[59] (175,655)<div  />
+					[60] (164,655)<cite class='qLRx3b tjvcx GvPZzd cHaqb' role='text'>Ca. 360 Follower />
+[61] (221,654)<div aria-label='Informationen zu diesem Ergebnis' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[62] (221,654)<span  />
+		[63] (221,655)<span  />
+Un bureau d'études techniques marocain spécialisé en ingénierie géotechnique
+, au service des projets de construction et d'infrastructures.
+Es fehlt:
+laboratoire
+‎| Suchen mit:
+[64] (246,759)<a href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n6AJ01mfhpz93AZHsuTXTnjTfHNQQ:1778199558603&q=GEOSAFE+Maroc+%22laboratoire%22+g%C3%A9otechnique+projets&sa=X&ved=2ahUKEwiX4Z7ItaiUAxVx9AIHHfuMAswQ5t4CegQIJBAB' />
+	[65] (246,759)<span >laboratoire />
+[66] (213,839)<a class='zReHs' href='https://legbtp.ma/tanger/' />
+	[67] (213,859)<h3 >Laboratoire Géotechnique BTP à Tanger />
+	[68] (175,822)<div  />
+		[69] (175,822)<div  />
+			[70] (127,822)<span  />
+				[71] (127,822)<div  />
+					[72] (127,822)<img  />
+			[73] (185,822)<div  />
+				[74] (185,813)<div  />
+					[75] (185,813)<span >LegBtp />
+				[76] (185,833)<div  />
+					[77] (185,833)<cite class='qLRx3b tjvcx GvPZzd dTxz9 cHaqb' role='text'>https://legbtp.ma />
+						[78] (198,833)<span class='ylgVCe ob9lvb' role='text'>› tanger />
+·
+[79] (250,833)<a class='dEEN8c' href='https://legbtp.ma/tanger/' />
+	[80] (250,833)<span >Diese Seite übersetzen />
+[81] (294,832)<div aria-label='Informationen zu diesem Ergebnis' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[82] (294,832)<span  />
+		[83] (294,833)<span  />
+27.01.2025
+—
+Diagnostic et résolution des problématiques géotechniques et structurelles sur tous types de
+projets
+, pour garantir leur solidité et sécurité.
+Es fehlt:
+GEOSAFE
+‎| Suchen mit:
+[84] (248,937)<a href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n6AJ01mfhpz93AZHsuTXTnjTfHNQQ:1778199558603&q=%22GEOSAFE%22+Maroc+laboratoire+g%C3%A9otechnique+projets&sa=X&ved=2ahUKEwiX4Z7ItaiUAxVx9AIHHfuMAswQ5t4CegQIHhAB' />
+	[85] (248,937)<span >GEOSAFE />
+[86] (196,990)<div  />
+	[87] (196,990)<span >idesol />
+
+</current_dom>

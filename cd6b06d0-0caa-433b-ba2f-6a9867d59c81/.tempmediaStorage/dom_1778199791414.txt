@@ -1,0 +1,91 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (767,40)<a class='nav__logo-link link-no-visited-state z-1 mr-auto min-h-[52px] flex items-center babybear:z-0 hover:no-underline focus:no-underline active:no-underline
+           babymamabear:mr-3' href='/?trk=organization_guest_nav-header-logo'>‏LinkedIn />
+	‏LinkedIn
+	[1] (767,40)<icon  />
+[2] (584,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        min-w-8
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary' href='https://www.linkedin.com/top-content?trk=organization_guest_guest_nav_menu_topContent' />
+	[3] (584,32)<icon  />
+	[4] (584,53)<span >أفضل محتوى />
+[5] (542,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        min-w-8
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary' href='https://www.linkedin.com/pub/dir/+/+?trk=organization_guest_guest_nav_menu_people' />
+	[6] (542,32)<icon  />
+	[7] (542,53)<span >الأشخاص />
+[8] (501,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        min-w-8
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary' href='https://www.linkedin.com/learning/search?trk=organization_guest_guest_nav_menu_learning' />
+	[9] (501,32)<icon  />
+	[10] (501,53)<span >التعلم />
+[11] (459,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        min-w-8
+        flex-col mx-1 babybear:mx-0
+        top-nav-link--selected text-color-text visited:text-color-text border-solid border-b-2 border-color-text' href='https://www.linkedin.com/jobs/search?trk=organization_guest_guest_nav_menu_jobs' />
+	[12] (459,31)<icon  />
+	[13] (459,52)<span >الوظائف />
+[14] (417,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        min-w-8
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary' href='https://www.linkedin.com/games?trk=organization_guest_guest_nav_menu_games' />
+	[15] (417,32)<icon  />
+	[16] (417,53)<span >الألعاب />
+[17] (367,40)<a class='top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-[96px] px-1 border-solid border-l-1 border-r-1 babybear:border-r-0 border-color-border-faint
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary' href='ms-windows-store://pdp/?ProductId=9WZDNCRFJ4Q7&mode=mini&cid=guest_nav_upsell&trk=organization_guest_guest_nav_menu_windows' />
+	[18] (367,32)<icon  />
+	[19] (367,53)<span >الحصول على التطبيق />
+[20] (294,40)<a class='nav__button-secondary btn-secondary-emphasis ml-3 btn-md' href='https://www.linkedin.com/login/ar?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fgeosafebet&fromSignIn=true&trk=organization_guest_nav-header-signin'>تسجيل الدخول />
+[21] (232,40)<a class='nav__button-tertiary btn-primary btn-md' href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fgeosafebet&_l=ar&trk=organization_guest_nav-header-join'>انضم الآن />
+المواقع الجغرافية
+رئيسي
+Rue Moulay Rachid
+Imm 7, Appt 10, 4ème étage
+‏Rabat‏، ‏Rabat-Salé-Kénitra‏ ‏10020‏، ‏MA‏
+[22] (738,180)<a class='link-no-visited-state hover:no-underline' href='https://www.bing.com/maps?where=Rue+Moulay+Rachid+Imm+7%2C+Appt+10%2C+4%C3%A8me+%C3%A9tage+Rabat+10020+Rabat-Sal%C3%A9-K%C3%A9nitra+MA&trk=org-locations_url'>احصل على اتجاهات السير />
+	[23] (699,181)<icon  />
+موظفين في ‏GEOSAFE‏
+[24] (590,366)<a class='base-card relative w-full hover:no-underline focus:no-underline
+        base-card--link
+        outline-offset-[4px] base-main-card flex flex-wrap py-1.5 pr-2 babybear:pr-0
+        
+        base-main-card--link
+        ' href='https://ma.linkedin.com/in/youssefchaqqour?trk=org-employees' />
+	[25] (769,366)<img  />
+	[26] (579,366)<div  />
+		[27] (579,364)<h3 >Youssef CHAQQOUR />
+[28] (742,464)<a class='mt-4 inline-block btn-md btn-secondary-emphasis hover:no-underline' href='https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D%255B107977056%255D&_l=ar&trk=public_biz_employees-join'>عرض كل الموظفين />
+التحديثات
+أعاد ‏
+[29] (743,621)<a class='link-styled' href='https://ma.linkedin.com/company/geosafebet?trk=organization_guest_main-feed-card_feed-reaction-header'>‏GEOSAFE‏ />
+‏ نشر هذا
+[30] (760,682)<a class='relative' href='https://ma.linkedin.com/in/youssefchaqqour?trk=organization_guest_main-feed-card_feed-actor-image' />
+	[31] (760,678)<img  />
+[32] (706,666)<a aria-label='عرض ملف ‏Youssef CHAQQOUR‏ الشخصي' class='text-sm link-styled no-underline leading-open px-0.25 outline-offset-[-1px]' href='https://ma.linkedin.com/in/youssefchaqqour?trk=organization_guest_main-feed-card_feed-actor-name'>Youssef CHAQQOUR />
+‏١‏ شهر
+[33] (519,674)<button aria-label='فتح القائمة' class='ellipsis-menu__trigger
+                collapsible-dropdown__button btn-md btn-tertiary cursor-pointer
+                !py-[6px] !px-1 flex items-center rounded-[50%]
+                
+                ' />
+	[34] (519,674)<icon  />
+Retour sur trois jours enrichissants à l’occasion de la 1ère édition du
+[35] (690,748)<a class='link' href='https://ma.linkedin.com/company/siport-event?trk=organization_guest_main-feed-card-text'>SIPORTS 2026 />
+(Salon International des Ports) à El Jadida ⚓
+
+Un événement marqué par des échanges de qualité, des perspectives intéressantes et une belle diversité d’acteurs engagés dans le développement du secteur portuaire.
+
+Ravi d’y avoir pris part aux côtés de
+[36] (660,884)<a class='link' href='https://ma.linkedin.com/company/geosafebet?trk=organization_guest_main-feed-card-text'>GEOSAFE />
+, dans une ambiance à la fois professionnelle et dynamique 💼… avec juste ce qu’il faut de passion pour rendre les discussions encore plus intéressantes.
+
+Une première édition réussie 🎯, qui en appelle certainement d’autres.
+
+</current_dom>

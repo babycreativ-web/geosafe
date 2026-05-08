@@ -1,0 +1,15 @@
+# Task: Verify GEOSAFE Website Header
+
+## Checklist
+- [x] Navigate to http://localhost:8080?v=3
+- [x] Capture screenshot of the header
+- [x] Verify horizontal alignment of logo, nav links, and button (FAILED: Elements are stacking vertically)
+- [ ] Verify professional/elegant look of the button (Button is present but misaligned)
+- [ ] Investigate computed styles if alignment is incorrect (In progress: Checking index.css via network request)
+
+## Findings
+- Logo y-coord: 20
+- Nav links y-coord: 54
+- Button y-coord: 96
+- The elements are stacked instead of being on a single row.
+- CSS file identified at http://localhost:8080/index.css (RequestId: 31)

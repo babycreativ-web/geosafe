@@ -1,0 +1,165 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Zu den Hauptinhalten springen
+Hilfe zur Barrierefreiheit
+Feedback zur Barrierefreiheit
+[0] (63,56)<a aria-label='Weiter zur Google-Startseite' href='https://www.google.com/webhp?hl=de&sa=X&ved=0ahUKEwiusNGqtaiUAxUQRP4FHWqhGmcQPAgJ' id='logo' title='Weiter zur Google-Startseite' />
+[1] (292,55)<textarea aria-label='Suche' class='gLFyf' id='APjFqb' role='combobox' />
+[2] (477,55)<div  />
+	[3] (476,55)<div aria-label='Löschen' class='vOY7J M2vV3' role='button' />
+		[4] (476,55)<span  />
+	[5] (488,55)<span  />
+[6] (501,55)<div aria-label='Sprachsuche' class='XDyW0e' role='button' />
+[7] (522,55)<div aria-label='Suche anhand von Bildern' class='nDcEnd' role='button' />
+[8] (546,55)<button aria-label='Suche' class='HZVG1b Tg7LZd' />
+	[9] (542,55)<div  />
+		[10] (542,55)<span  />
+[11] (954,55)<a aria-label='Google-Apps' class='gb_C' href='https://www.google.co.ma/intl/de/about/products?tab=wh' role='button' />
+[12] (979,55)<a aria-label='Google-Konto: Reda Zaryouh  
+(zaryouhreda6@gmail.com)' class='gb_C gb_5a' href='https://accounts.google.com/SignOutOptions?hl=de&continue=https://www.google.com/search%3Fq%3DBureau%2Bd%2527%25C3%2589tudes%2BG%25C3%25A9otechnique%2BGEOSAFE%2BMaroc%26sei%3DyCv9aZSaCJb0i-gP4LjyiQs&ec=futura_srp_og_si_72236_p' role='button' />
+[13] (135,121)<a class='XVMlrc C6AK7c' href='/search?q=Bureau+d%27%C3%89tudes+G%C3%A9otechnique+GEOSAFE+Maroc&sca_esv=144a354d1415577e&sxsrf=ANbL-n7XVWudhesJMr8rgI8-lM4HnjtiDg:1778199496518&udm=50&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&aep=1&ntc=1&sa=X&ved=2ahUKEwiusNGqtaiUAxUQRP4FHWqhGmcQ2J8OegQIERAD' />
+	[14] (135,121)<div  />
+		[15] (135,130)<div  />
+			[16] (135,124)<span  />
+				[17] (135,124)<span >KI‑Modus />
+[18] (170,121)<a class='C6AK7c' role='link' />
+	Alle
+[19] (197,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n7XVWudhesJMr8rgI8-lM4HnjtiDg:1778199496518&udm=2&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&q=Bureau+d%27%C3%89tudes+G%C3%A9otechnique+GEOSAFE+Maroc&sa=X&ved=2ahUKEwiusNGqtaiUAxUQRP4FHWqhGmcQtKgLegQIExAB' />
+	[20] (197,121)<div  />
+		[21] (197,130)<span >Bilder />
+[22] (230,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n7XVWudhesJMr8rgI8-lM4HnjtiDg:1778199496518&udm=7&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&q=Bureau+d%27%C3%89tudes+G%C3%A9otechnique+GEOSAFE+Maroc&sa=X&ved=2ahUKEwiusNGqtaiUAxUQRP4FHWqhGmcQtKgLegQIFBAB' />
+	[23] (230,121)<div  />
+		[24] (230,130)<span >Videos />
+[25] (276,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n7XVWudhesJMr8rgI8-lM4HnjtiDg:1778199496518&udm=39&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&q=Bureau+d%27%C3%89tudes+G%C3%A9otechnique+GEOSAFE+Maroc&sa=X&ved=2ahUKEwiusNGqtaiUAxUQRP4FHWqhGmcQs6gLegQIFRAB' />
+	[26] (276,121)<div  />
+		[27] (276,130)<span >Kurze Videos />
+[28] (319,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n7XVWudhesJMr8rgI8-lM4HnjtiDg:1778199496518&q=Bureau+d%27%C3%89tudes+G%C3%A9otechnique+GEOSAFE+Maroc&tbm=nws&source=lnms&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&sa=X&ved=2ahUKEwiusNGqtaiUAxUQRP4FHWqhGmcQ0pQJegQIFhAB' />
+	[29] (319,121)<div  />
+		[30] (319,130)<span >News />
+[31] (349,121)<a class='C6AK7c' href='https://maps.google.com/maps?sca_esv=144a354d1415577e&output=search&q=Bureau+d'%C3%89tudes+G%C3%A9otechnique+GEOSAFE+Maroc&source=lnms&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6CerClNWWyMED6Ws2xMr4jRsRqAcWX-Qs-WSfXWrkhIqUCMvZE7_YZGDgHKcVq_xxk0f_mS-Gaf-pBCIRXTHdFCBWbm7yJ98sPJS-nelOqgO5StwzIJc8uqptqyhI62gqO2M4IA&entry=mc&ved=1t:200715&ictx=111' />
+	[32] (349,121)<div  />
+		[33] (349,130)<span >Maps />
+[34] (384,121)<div class='mTpL7c' role='button' />
+	[35] (384,121)<div  />
+		[36] (384,130)<div  />
+			[37] (379,124)<span >Mehr />
+			[38] (392,124)<span  />
+[39] (429,121)<div class='mOKdDc' id='hdtb-tls' role='button' />
+	[40] (429,121)<div  />
+		[41] (429,130)<div  />
+			[42] (424,124)<span >Suchfilter />
+			[43] (444,124)<span  />
+Suchergebnisse
+Übersicht mit KI
+[44] (688,195)<div aria-label='Informationen zu diesem Ergebnis' class='Mtffrd' role='button' />
+GEOSAFE est un bureau d'études marocain spécialisé en
+ingénierie géotechnique
+, fondé en juin 2025.
+[45] (198,259)<button aria-label='Zugehörige Links ansehen' class='rBl3me' />
+	[46] (198,259)<span  />
+Voici les points clés concernant GEOSAFE (GEOSAFE BET) :
+Spécialisation :
+Ingénierie géotechnique, analyse du comportement des sols, et défis géotechniques classiques ou complexes.
+Fondateur/Gérant :
+Le bureau est dirigé par un ingénieur géotechnicien avec près d'une décennie d'expérience au Maroc.
+Approche :
+Indépendante, rigoureuse et engagée, visant à répondre aux exigences spécifiques de chaque projet.
+Profil LinkedIn :
+Vous pouvez suivre leurs actualités et les contacter via leur page
+GEOSAFE sur LinkedIn
+.
+Il est à noter que d'autres entreprises comme
+S2G
+(Sté d'ingénierie en géotechnique et génie civil)
+ou
+GEOSEF
+(spécialiste en travaux géotechniques et post-tension)
+sont également actives dans ce domaine au Maroc.
+[47] (581,321)<a aria-label='‏GEOSAFE‏ | LinkedIn. Wird in einem neuen Tab geöffnet.' class='NDNGvf' href='https://ma.linkedin.com/company/geosafebet' />
+‏GEOSAFE‏ | LinkedIn
+Au terme de près d'une décennie d'accompagnement technique en tant qu'ingénieur géotechnicien sur des projets variés à travers le ...
+LinkedIn ‏المغرب
+[48] (678,368)<div aria-label='Informationen zu diesem Ergebnis' class='xXnAhe' id='snui-atr-ySv9adKUA9qri-gPspjx8Qc_22' role='button' />
+Des Solutions Géotechniques & Post-Tension Certifiées
+GEOSEF est une société ITALO-MAROCAINE spécialisée dans la fourniture de travaux spéciaux en génie civil (géotechniques, systèmes ...
+GEOSEF
+Bureaux d'études -géologie, géotechnique Maroc - Casablanca
+S2G (sté d'ingénierie en géotechnique et génie civil). Mohammedia - MAROC. Etudes géotechniques, contrôles, essais, laboratoire bt...
+Kerix.net
+[49] (406,538)<div aria-label='Button „Mehr anzeigen“ der Übersicht mit KI' class='Jzkafd' role='button' />
+	[50] (284,538)<div  />
+		[51] (284,538)<div >Mehr anzeigen />
+			Mehr anzeigen
+			[52] (310,538)<span  />
+Résultats Web
+[53] (165,658)<a class='zReHs' href='https://ma.linkedin.com/company/geosafebet' />
+	[54] (145,681)<h3 >GEOSAFE />
+	[55] (165,644)<div  />
+		[56] (165,644)<div  />
+			[57] (127,644)<span  />
+				[58] (127,644)<div  />
+					[59] (127,644)<img  />
+			[60] (175,644)<div  />
+				[61] (175,635)<div  />
+					[62] (175,635)<span >LinkedIn · GEOSAFE />
+				[63] (175,655)<div  />
+					[64] (164,655)<cite class='qLRx3b tjvcx GvPZzd cHaqb' role='text'>Ca. 360 Follower />
+[65] (221,654)<div aria-label='Informationen zu diesem Ergebnis' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[66] (221,654)<span  />
+		[67] (221,655)<span  />
+Je suis heureux de vous annoncer la naissance de
+GEOSAFE, bureau d'études marocain spécialisé en ingénierie géotechnique
+, fondé en juin 2025 ...
+[68] (249,816)<a class='zReHs' href='https://www.kerix.net/fr/annuaire-entreprise/bureaux-detudes-geologie-geotechnique.html' />
+	[69] (249,835)<h3 >bureaux d'études -géologie, géotechnique - Casablanca />
+	[70] (185,799)<div  />
+		[71] (185,799)<div  />
+			[72] (127,799)<span  />
+				[73] (127,799)<div  />
+					[74] (127,799)<img  />
+			[75] (196,799)<div  />
+				[76] (196,789)<div  />
+					[77] (196,789)<span >Kerix.net />
+				[78] (196,810)<div  />
+					[79] (196,810)<cite class='qLRx3b tjvcx GvPZzd dTxz9 cHaqb' role='text'>https://www.kerix.net />
+						[80] (215,810)<span class='ylgVCe ob9lvb' role='text'>› bureaux... />
+·
+[81] (271,810)<a class='dEEN8c' href='https://www.kerix.net/fr/annuaire-entreprise/bureaux-detudes-geologie-geotechnique.html' />
+	[82] (271,810)<span >Diese Seite übersetzen />
+[83] (315,808)<div aria-label='Informationen zu diesem Ergebnis' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[84] (315,808)<span  />
+		[85] (315,810)<span  />
+S2G (sté d'ingénierie en
+géotechnique
+et génie civil). Mohammedia -
+MAROC
+.
+Etudes géotechniques
+, contrôles, essais, laboratoire btp, expertises techniques. Voir ...
+Es fehlt:
+GEOSAFE
+‎| Suchen mit:
+[86] (248,913)<a href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n7XVWudhesJMr8rgI8-lM4HnjtiDg:1778199496518&q=Bureau+d'%C3%89tudes+G%C3%A9otechnique+%22GEOSAFE%22+Maroc&sa=X&ved=2ahUKEwiusNGqtaiUAxUQRP4FHWqhGmcQ5t4CegQIKhAB' />
+	[87] (248,913)<span >GEOSAFE />
+[88] (248,993)<a class='zReHs' href='https://geosef.com/apropos.html' />
+	[89] (180,977)<div  />
+		[90] (180,977)<div  />
+			[91] (127,977)<span  />
+				[92] (127,977)<div  />
+					[93] (127,977)<img  />
+			[94] (190,977)<div  />
+				[95] (190,967)<div  />
+					[96] (190,967)<span >GEOSEF />
+				[97] (190,987)<div  />
+					[98] (190,987)<cite class='qLRx3b tjvcx GvPZzd dTxz9 cHaqb' role='text'>https://geosef.com />
+						[99] (206,987)<span class='ylgVCe ob9lvb' role='text'>› apropos />
+·
+[100] (260,987)<a class='dEEN8c' href='https://geosef.com/apropos.html' />
+	[101] (260,987)<span >Diese Seite übersetzen />
+[102] (304,986)<div aria-label='Informationen zu diesem Ergebnis' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[103] (304,986)<span  />
+		[104] (304,987)<span  />
+
+</current_dom>

@@ -1,0 +1,43 @@
+الموافقة والانضمام إلى LinkedIn
+بالنقر على الاستمرار للانضمام أو تسجيل الدخول، أنت توافق على ‏
+[0] (118,101)<a href='/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement'>اتفاقية المستخدم />
+‏ و‏
+[1] (153,111)<a href='/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy'>اتفاقية الخصوصية />
+‏ و‏
+[2] (93,111)<a href='/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy'>سياسة ملفات تعريف الارتباط />
+‏ على LinkedIn.
+[3] (767,40)<a class='nav__logo-link link-no-visited-state z-1 mr-auto min-h-[52px] flex items-center babybear:z-0 hover:no-underline focus:no-underline active:no-underline
+          ' href='/?trk=seo-authwall-base_nav-header-logo'>‏LinkedIn />
+	‏LinkedIn
+	[4] (767,40)<icon  />
+الانضمام إلى LinkedIn
+[5] (500,328)<input class='input__input' id='email-or-phone' placeholder=' ' />
+البريد الإلكتروني
+[6] (500,404)<input class='input__input' id='password' placeholder=' ' />
+كلمة المرور (أكثر من 6 حروف)
+بالنقر على الموافقة والانضمام، فأنت توافق على ‏
+[7] (453,477)<a class='join-form__form-body-agreement-item-link' href='https://www.linkedin.com/legal/user-agreement?trk=seo-authwall-base_join-form-user-agreement'>اتفاقية المستخدم />
+‏ و‏
+[8] (501,488)<a class='join-form__form-body-agreement-item-link' href='https://www.linkedin.com/legal/privacy-policy?trk=seo-authwall-base_join-form-privacy-policy'>سياسة الخصوصية />
+‏ و‏
+[9] (522,498)<a class='join-form__form-body-agreement-item-link' href='https://www.linkedin.com/legal/cookie-policy?trk=seo-authwall-base_join-form-cookie-policy'>سياسة ملفات تعريف الارتباط />
+‏ على LinkedIn.
+[10] (500,552)<button class='join-form__form-body-submit-button ' id='join-form-submit'>الموافقة والانضمام />
+أو
+[11] (500,667)<div aria-label='المتابعة باستخدام google' class='third-party-join__gsi-btn-container' role='button' />
+هل لديك حساب على LinkedIn بالفعل؟
+[12] (442,723)<button class='authwall-join-form__form-toggle--bottom form-toggle'>تسجيل الدخول />
+[13] (608,788)<button class='modal__outlet ' />
+‏LinkedIn
+© 2026
+[14] (716,947)<a class='li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus' href='https://about.linkedin.com?trk=seo-authwall-base_footer-about'>نبذة عني />
+[15] (676,947)<a class='li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus' href='https://www.linkedin.com/accessibility?trk=seo-authwall-base_footer-accessibility'>إمكانية الوصول />
+[16] (626,947)<a class='li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus' href='https://www.linkedin.com/legal/user-agreement?trk=seo-authwall-base_footer-user-agreement'>اتفاقية المستخدم />
+[17] (573,947)<a class='li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus' href='https://www.linkedin.com/legal/privacy-policy?trk=seo-authwall-base_footer-privacy-policy'>سياسة الخصوصية />
+[18] (504,947)<a class='li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus' href='https://www.linkedin.com/legal/cookie-policy?trk=seo-authwall-base_footer-cookie-policy'>سياسة ملفات تعريف الارتباط />
+[19] (434,947)<a class='li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus' href='https://www.linkedin.com/legal/copyright-policy?trk=seo-authwall-base_footer-copyright-policy'>سياسة حقوق النشر />
+[20] (373,947)<a class='li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus' href='https://brand.linkedin.com/policies?trk=seo-authwall-base_footer-brand-policy'>سياسة العلامة التجارية />
+[21] (307,947)<a class='li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus' href='https://www.linkedin.com/psettings/guest-controls?trk=seo-authwall-base_footer-guest-controls'>إعدادات إدارة الضيوف />
+[22] (249,947)<a class='li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus' href='https://www.linkedin.com/legal/professional-community-policies?trk=seo-authwall-base_footer-community-guide'>إرشادات المجتمع />
+[23] (778,982)<button class='language-selector__button select-none relative pr-2 font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover hover:cursor-pointer focus:text-color-link-focus focus:outline-dotted focus:outline-1'>اللغة />
+	اللغة

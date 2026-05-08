@@ -1,0 +1,7 @@
+# GEOSAFE Header Verification Plan
+
+- [ ] Navigate to http://localhost:8080
+- [ ] Capture a screenshot of the header
+- [ ] Verify logo, nav links, and button are on the same horizontal row
+- [ ] Verify "outline" style of the header button
+- [ ] Check for horizontal scrollbars

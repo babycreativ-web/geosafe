@@ -1,0 +1,145 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Zu den Hauptinhalten springen
+Hilfe zur Barrierefreiheit
+Feedback zur Barrierefreiheit
+[0] (63,56)<a aria-label='Weiter zur Google-Startseite' href='https://www.google.com/webhp?hl=de&sa=X&ved=0ahUKEwjp9djqtaiUAxUO-QIHHWE6HpsQPAgJ' id='logo' title='Weiter zur Google-Startseite' />
+[1] (292,55)<textarea aria-label='Suche' class='gLFyf' id='APjFqb' role='combobox' />
+[2] (477,55)<div  />
+	[3] (476,55)<div aria-label='Löschen' class='vOY7J M2vV3' role='button' />
+		[4] (476,55)<span  />
+	[5] (488,55)<span  />
+[6] (501,55)<div aria-label='Sprachsuche' class='XDyW0e' role='button' />
+[7] (522,55)<div aria-label='Suche anhand von Bildern' class='nDcEnd' role='button' />
+[8] (546,55)<button aria-label='Suche' class='HZVG1b Tg7LZd' />
+	[9] (542,55)<div  />
+		[10] (542,55)<span  />
+[11] (954,55)<a aria-label='Google-Apps' class='gb_C' href='https://www.google.co.ma/intl/de/about/products?tab=wh' role='button' />
+[12] (979,55)<a aria-label='Google-Konto: Reda Zaryouh  
+(zaryouhreda6@gmail.com)' class='gb_C gb_5a' href='https://accounts.google.com/SignOutOptions?hl=de&continue=https://www.google.com/search%3Fq%3DGEOSAFE%2BMaroc%2Bsite%2Bofficiel%2Bannuaire%2BBTP&ec=futura_srp_og_si_72236_p' role='button' />
+[13] (135,121)<a class='XVMlrc C6AK7c' href='/search?q=GEOSAFE+Maroc+site+officiel+annuaire+BTP&sca_esv=144a354d1415577e&sxsrf=ANbL-n45Onaw4U97lsK9cByVknlNA1ITZQ:1778199630859&udm=50&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6NGetV4LYidH27P17bEWGcsR8Kyts3gQTXMocWeGfy_EV_Dc5cfv0q-HE5a7WNrvvHkSjU4mYXk2sAwm-hGHRipzctCn1Fm84Xoufpd9pfWKb2zDH8qAtbyTU93txzBeS5eT-YQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjp9djqtaiUAxUO-QIHHWE6HpsQ2J8OegQIEBAD' />
+	[14] (135,121)<div  />
+		[15] (135,130)<div  />
+			[16] (135,124)<span  />
+				[17] (135,124)<span >KI‑Modus />
+[18] (170,121)<a class='C6AK7c' role='link' />
+	Alle
+[19] (197,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n45Onaw4U97lsK9cByVknlNA1ITZQ:1778199630859&udm=2&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6NGetV4LYidH27P17bEWGcsR8Kyts3gQTXMocWeGfy_EV_Dc5cfv0q-HE5a7WNrvvHkSjU4mYXk2sAwm-hGHRipzctCn1Fm84Xoufpd9pfWKb2zDH8qAtbyTU93txzBeS5eT-YQ&q=GEOSAFE+Maroc+site+officiel+annuaire+BTP&sa=X&ved=2ahUKEwjp9djqtaiUAxUO-QIHHWE6HpsQtKgLegQIFxAB' />
+	[20] (197,121)<div  />
+		[21] (197,130)<span >Bilder />
+[22] (230,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n45Onaw4U97lsK9cByVknlNA1ITZQ:1778199630859&udm=7&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6NGetV4LYidH27P17bEWGcsR8Kyts3gQTXMocWeGfy_EV_Dc5cfv0q-HE5a7WNrvvHkSjU4mYXk2sAwm-hGHRipzctCn1Fm84Xoufpd9pfWKb2zDH8qAtbyTU93txzBeS5eT-YQ&q=GEOSAFE+Maroc+site+officiel+annuaire+BTP&sa=X&ved=2ahUKEwjp9djqtaiUAxUO-QIHHWE6HpsQtKgLegQIGBAB' />
+	[23] (230,121)<div  />
+		[24] (230,130)<span >Videos />
+[25] (276,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n45Onaw4U97lsK9cByVknlNA1ITZQ:1778199630859&udm=39&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6NGetV4LYidH27P17bEWGcsR8Kyts3gQTXMocWeGfy_EV_Dc5cfv0q-HE5a7WNrvvHkSjU4mYXk2sAwm-hGHRipzctCn1Fm84Xoufpd9pfWKb2zDH8qAtbyTU93txzBeS5eT-YQ&q=GEOSAFE+Maroc+site+officiel+annuaire+BTP&sa=X&ved=2ahUKEwjp9djqtaiUAxUO-QIHHWE6HpsQs6gLegQIFRAB' />
+	[26] (276,121)<div  />
+		[27] (276,130)<span >Kurze Videos />
+[28] (319,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n45Onaw4U97lsK9cByVknlNA1ITZQ:1778199630859&q=GEOSAFE+Maroc+site+officiel+annuaire+BTP&tbm=nws&source=lnms&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6NGetV4LYidH27P17bEWGcsR8Kyts3gQTXMocWeGfy_EV_Dc5cfv0q-HE5a7WNrvvHkSjU4mYXk2sAwm-hGHRipzctCn1Fm84Xoufpd9pfWKb2zDH8qAtbyTU93txzBeS5eT-YQ&sa=X&ved=2ahUKEwjp9djqtaiUAxUO-QIHHWE6HpsQ0pQJegQIFBAB' />
+	[29] (319,121)<div  />
+		[30] (319,130)<span >News />
+[31] (352,121)<a class='C6AK7c' href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n45Onaw4U97lsK9cByVknlNA1ITZQ:1778199630859&q=GEOSAFE+Maroc+site+officiel+annuaire+BTP&udm=36&source=lnms&fbs=ADc_l-YGrpJMQtvjQ6h14rj-dfIrbPkd_Upq68wJVnEIgo2Pwxu679PACFfTKv4n_1_FsyWcmsJ_9bzoaht0GJmpTAK6NGetV4LYidH27P17bEWGcsR8Kyts3gQTXMocWeGfy_EV_Dc5cfv0q-HE5a7WNrvvHkSjU4mYXk2sAwm-hGHRipzctCn1Fm84Xoufpd9pfWKb2zDH8qAtbyTU93txzBeS5eT-YQ&sa=X&ved=2ahUKEwjp9djqtaiUAxUO-QIHHWE6HpsQ0pQJegQIExAB' />
+	[32] (352,121)<div  />
+		[33] (352,130)<span >Bücher />
+[34] (389,121)<div class='mTpL7c' role='button' />
+	[35] (389,121)<div  />
+		[36] (389,130)<div  />
+			[37] (384,124)<span >Mehr />
+			[38] (397,124)<span  />
+[39] (434,121)<div class='mOKdDc' id='hdtb-tls' role='button' />
+	[40] (434,121)<div  />
+		[41] (434,130)<div  />
+			[42] (430,124)<span >Suchfilter />
+			[43] (450,124)<span  />
+Suchergebnisse
+Enthält auch Ergebnisse für
+[44] (325,190)<a href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n45Onaw4U97lsK9cByVknlNA1ITZQ:1778199630859&q=GEOSEF+Maroc+site+officiel+annuaire+BTP&sa=X&ved=2ahUKEwjp9djqtaiUAxUO-QIHHWE6HpsQ7xYoAHoECBYQAQ'>Maroc site officiel annuaire BTP />
+	[45] (257,190)<b  />
+		[46] (257,190)<i >GEOSEF />
+Nur nach
+[47] (229,216)<a href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n45Onaw4U97lsK9cByVknlNA1ITZQ:1778199630859&q=GEOSAFE+Maroc+site+officiel+annuaire+BTP&nirf=GEOSEF+Maroc+site+officiel+annuaire+BTP&sa=X&ved=2ahUKEwjp9djqtaiUAxUO-QIHHWE6HpsQ8BYoAXoECBYQAg'>GEOSAFE Maroc site officiel annuaire BTP />
+suchen
+Übersicht mit KI
+[48] (688,246)<div aria-label='Informationen zu diesem Ergebnis' class='Mtffrd' role='button' />
+D'après les informations disponibles, voici les détails concernant
+GEOSAFE
+au Maroc, un cabinet d'ingénierie spécialisé dans le BTP :
+Activité :
+GEOSAFE est un bureau d'études marocain spécialisé en ingénierie géotechnique, se concentrant sur des solutions de conception fiables pour la sécurité et la durabilité.
+Siège social :
+Rabat, Rabat-Salé-Kénitra.
+Contact :
+contact@geosafe.ma.
+Profil LinkedIn :
+Vous pouvez trouver leur page officielle sous le nom
+GEOSAFE
+(ou @geosafebet).
+Note importante :
+Il ne faut pas confondre GEOSAFE avec
+Geosef
+(une autre entreprise basée à Médiouna) ou
+Geotehnika
+à Casablanca.
+Pour trouver d'autres entreprises du BTP, vous pouvez consulter des annuaires professionnels comme
+Kerix
+ou
+Kompass
+.
+[49] (406,588)<div aria-label='Button „Mehr anzeigen“ der Übersicht mit KI' class='Jzkafd' role='button' />
+	[50] (284,588)<div  />
+		[51] (284,588)<div >Mehr anzeigen />
+			Mehr anzeigen
+			[52] (310,588)<span  />
+Résultats Web
+[53] (246,712)<a class='zReHs' href='https://www.kerix.net/fr/annuaire-entreprise/geosef' />
+	[54] (246,732)<h3 >Geosef | Kerix, l'annuaire des professionnels du Maroc />
+	[55] (181,695)<div  />
+		[56] (181,695)<div  />
+			[57] (127,695)<span  />
+				[58] (127,695)<div  />
+					[59] (127,695)<img  />
+			[60] (191,695)<div  />
+				[61] (191,686)<div  />
+					[62] (191,686)<span >Kerix.net />
+				[63] (191,706)<div  />
+					[64] (191,706)<cite class='qLRx3b tjvcx GvPZzd dTxz9 cHaqb' role='text'>https://www.kerix.net />
+						[65] (210,706)<span class='ylgVCe ob9lvb' role='text'>› geosef />
+·
+[66] (262,706)<a class='dEEN8c' href='https://www.kerix.net/fr/annuaire-entreprise/geosef' />
+	[67] (262,706)<span >Diese Seite übersetzen />
+[68] (306,705)<div aria-label='Informationen zu diesem Ergebnis' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[69] (306,705)<span  />
+		[70] (306,706)<span  />
+GEOSEF
+. 3, lot. Assalam, 2° étg. n° 55 29490 Médiouna -
+Maroc
+. Vérifié Demander un devis Contacter. téléphone voir téléphone. +212-668671233. Aucun
+site
+web ...
+Es fehlt:
+BTP
+‎| Suchen mit:
+[71] (216,810)<a href='/search?sca_esv=144a354d1415577e&sxsrf=ANbL-n45Onaw4U97lsK9cByVknlNA1ITZQ:1778199630859&q=GEOSAFE+Maroc+site+officiel+annuaire+%22BTP%22&sa=X&ved=2ahUKEwjp9djqtaiUAxUO-QIHHWE6HpsQ5t4CegQIHhAB' />
+	[72] (216,810)<span >BTP />
+[73] (165,887)<a class='zReHs' href='https://ma.linkedin.com/company/geosafebet' />
+	[74] (145,911)<h3 >GEOSAFE />
+	[75] (165,874)<div  />
+		[76] (165,874)<div  />
+			[77] (127,874)<span  />
+				[78] (127,874)<div  />
+					[79] (127,874)<img  />
+			[80] (175,874)<div  />
+				[81] (175,864)<div  />
+					[82] (175,864)<span >LinkedIn · GEOSAFE />
+				[83] (175,884)<div  />
+					[84] (164,884)<cite class='qLRx3b tjvcx GvPZzd cHaqb' role='text'>Ca. 360 Follower />
+[85] (221,883)<div aria-label='Informationen zu diesem Ergebnis' class='MJ8UF iTPLzd rNSxBe eY4mx lUn2nc' role='button' />
+	[86] (221,883)<span  />
+		[87] (221,884)<span  />
+نبذة عنا ; المجال المهني: الهندسة المدنية ; حجم الشركة: ‏٢ - ١٠ موظفين ; المقر الرئيسي: ‏Rabat‏, ‏Rabat-Salé-Kénitra‏ ; النوع: شركة يملكها عدد قليل ...
+Es fehlt:
+officiel
+‎
+annuaire
+
+</current_dom>
