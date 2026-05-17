@@ -784,27 +784,56 @@ header {
 }
 
 .btn-submit {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    padding: 16px 24px;
-    background: linear-gradient(135deg, var(--accent), #ff8533);
+    padding: 18px 24px;
+    background: linear-gradient(135deg, #ff8c00 0%, var(--accent) 100%);
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
     font-weight: 700;
     font-size: 1.05rem;
     cursor: pointer;
-    transition: var(--transition);
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
     font-family: inherit;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(255, 107, 0, 0.3);
+    letter-spacing: 0.5px;
 }
 
 .btn-submit i {
-    margin-right: 8px;
+    margin-right: 12px;
+    font-size: 1.1rem;
+    transition: transform 0.4s ease;
 }
 
 .btn-submit:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(255, 107, 0, 0.35);
+    box-shadow: 0 12px 28px rgba(255, 107, 0, 0.45);
+    background: linear-gradient(135deg, #ff9a22 0%, #ff7a1a 100%);
+}
+
+.btn-submit:hover i {
+    transform: translate(5px, -5px) rotate(-10deg);
+}
+
+.btn-submit::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(30deg);
+    transition: all 0.6s ease;
+}
+
+.btn-submit:hover::after {
+    left: 120%;
 }
 
 @media (max-width: 768px) {
