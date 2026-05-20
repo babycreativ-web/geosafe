@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="index.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- GSAP for Professional Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </head>
 <body>
 
@@ -33,10 +36,10 @@
     <section class="hero">
         <div class="hero-bg"></div>
         <div class="container hero-content">
-            <span class="hero-badge">Ingénierie Géotechnique de Pointe</span>
-            <h1>Ne rien laisser au hasard et bâtir sur des données sûres</h1>
-            <p>GEOSAFE accompagne les architectes, promoteurs et acteurs publics dans la sécurisation et l'optimisation de leurs structures. "Build on certainty."</p>
-            <div class="hero-btns">
+            <span class="hero-badge animate-hero">Ingénierie Géotechnique de Pointe</span>
+            <h1 class="animate-hero">Ne rien laisser au hasard et bâtir sur des données sûres</h1>
+            <p class="animate-hero">GEOSAFE accompagne les architectes, promoteurs et acteurs publics dans la sécurisation et l'optimisation de leurs structures. "Build on certainty."</p>
+            <div class="hero-btns animate-hero">
                 <a href="#services" class="btn btn-primary">Découvrir nos services</a>
                 <a href="#portfolio" class="btn btn-outline">Voir nos réalisations</a>
             </div>
@@ -45,9 +48,9 @@
 
     <section id="services" class="services reveal">
         <div class="container">
-            <div class="section-header">
-                <h2>Nos Expertises Techniques</h2>
-                <p>Des solutions géotechniques sur mesure, fondées sur la précision scientifique et la maîtrise des risques.</p>
+            <div class="section-header reveal">
+                <h2 class="animate-text">Nos Expertises Techniques</h2>
+                <p class="animate-text">Des solutions géotechniques sur mesure, fondées sur la précision scientifique et la maîtrise des risques.</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
@@ -135,12 +138,12 @@
                 <img src="founder.png" alt="Youssef Chaqqour" class="founder-image">
             </div>
             <div class="founder-details">
-                <h2 class="founder-name">Youssef Chaqqour</h2>
-                <div class="founder-title">
+                <h2 class="founder-name animate-text">Youssef Chaqqour</h2>
+                <div class="founder-title animate-text">
                     <span class="accent-line"></span>
                     <h3>Data Scientist Spécialisé en Ingénierie Géotechnique</h3>
                 </div>
-                <div class="founder-bio">
+                <div class="founder-bio animate-text">
                     <p>Je suis un data scientist spécialisé en ingénierie géotechnique, exploitant les données pour des résultats optimisés. Mon expertise englobe l'analyse des données géospatiales, la modélisation prédictive du comportement des sols, l'évaluation des risques de glissement de terrain et d'affaissement, ainsi que les solutions de surveillance en temps réel.</p>
                 </div>
             </div>

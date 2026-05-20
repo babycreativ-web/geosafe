@@ -956,16 +956,10 @@ footer {
     opacity: 0.6;
 }
 
-/* ========== SCROLL REVEAL ANIMATION ========== */
-.reveal {
+/* ========== SCROLL REVEAL ANIMATION (GSAP READY) ========== */
+.reveal, .animate-text, .animate-hero, .service-card, .project-card, .stat-item, .founder-image-wrapper {
     opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-}
-
-.reveal.active {
-    opacity: 1;
-    transform: translateY(0);
+    visibility: hidden;
 }
 
 /* ========== HAMBURGER MENU ========== */
