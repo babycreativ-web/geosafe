@@ -11,8 +11,18 @@
     <!-- GSAP for Professional Animations -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Fallback stylesheet in case GSAP fails to load -->
+    <noscript>
+        <style>
+            .reveal, .animate-text, .animate-hero, .service-card, .project-card, .stat-item, .founder-image-wrapper {
+                opacity: 1 !important;
+                visibility: visible !important;
+                transform: none !important;
+            }
+        </style>
+    </noscript>
 </head>
-<body>
+<body class="loading">
 
     <header>
         <div class="nav-container">
@@ -150,10 +160,10 @@
                 <h2 class="founder-name animate-text">Youssef Chaqqour</h2>
                 <div class="founder-title animate-text">
                     <span class="accent-line"></span>
-                    <h3>Data Scientist Spécialisé en Ingénierie Géotechnique</h3>
+                    <h3>Fondateur &amp; Expert en Ingénierie Géotechnique</h3>
                 </div>
                 <div class="founder-bio animate-text">
-                    <p>Je suis un data scientist spécialisé en ingénierie géotechnique, exploitant les données pour des résultats optimisés. Mon expertise englobe l'analyse des données géospatiales, la modélisation prédictive du comportement des sols, l'évaluation des risques de glissement de terrain et d'affaissement, ainsi que les solutions de surveillance en temps réel.</p>
+                    <p>Youssef Chaqqour est un expert en ingénierie géotechnique et en science des données, spécialisé dans la valorisation des données terrain pour sécuriser et optimiser les ouvrages de génie civil. Son expertise englobe l'analyse avancée des données géospatiales, la modélisation prédictive du comportement des sols, l'évaluation des risques naturels (glissements de terrain, affaissements) et le déploiement de solutions de surveillance et d'auscultation en temps réel.</p>
                 </div>
             </div>
         </div>
@@ -284,21 +294,21 @@
                         <div class="sidebar-icon"><i class="fas fa-phone-alt"></i></div>
                         <div>
                             <strong>Téléphone</strong>
-                            <p>+212 6 73 16 16 11</p>
+                            <p><a href="tel:+212673161611">+212 6 73 16 16 11</a></p>
                         </div>
                     </div>
                     <div class="sidebar-item">
                         <div class="sidebar-icon"><i class="fas fa-envelope"></i></div>
                         <div>
                             <strong>Email</strong>
-                            <p>contact@geosafe.ma</p>
+                            <p><a href="mailto:contact@geosafe.ma">contact@geosafe.ma</a></p>
                         </div>
                     </div>
                     <div class="sidebar-item">
                         <div class="sidebar-icon"><i class="fas fa-map-marker-alt"></i></div>
                         <div>
                             <strong>Adresse</strong>
-                            <p>Imm 7, Rue Moulay Rachid, Hassan, Rabat</p>
+                            <p><a href="https://maps.google.com/?q=Imm+7,+Rue+Moulay+Rachid,+Hassan,+Rabat,+Maroc" target="_blank" rel="noopener noreferrer">Imm 7, Rue Moulay Rachid, Hassan, Rabat</a></p>
                         </div>
                     </div>
                     <div class="sidebar-item">
@@ -311,50 +321,50 @@
                 </div>
                 <!-- Form -->
                 <div class="quote-form">
-                    <form>
+                    <form id="contact-form" action="#" method="POST">
                         <div class="form-grid">
                             <div class="form-group">
-                                <label><i class="fas fa-user"></i> Votre Nom / Entreprise</label>
-                                <input type="text" placeholder="Ex: Cabinet d'Architecture X" required>
+                                <label for="form-name"><i class="fas fa-user"></i> Votre Nom / Entreprise</label>
+                                <input type="text" id="form-name" name="name" placeholder="Ex: Cabinet d'Architecture X" required>
                             </div>
                             <div class="form-group">
-                                <label><i class="fas fa-envelope"></i> Email Professionnel</label>
-                                <input type="email" placeholder="contact@votreentreprise.ma" required>
+                                <label for="form-email"><i class="fas fa-envelope"></i> Email Professionnel</label>
+                                <input type="email" id="form-email" name="email" placeholder="contact@votreentreprise.ma" required>
                             </div>
                         </div>
                         <div class="form-grid">
                             <div class="form-group">
-                                <label><i class="fas fa-phone"></i> Téléphone</label>
-                                <input type="tel" placeholder="+212 6XX XXX XXX">
+                                <label for="form-phone"><i class="fas fa-phone"></i> Téléphone</label>
+                                <input type="tel" id="form-phone" name="phone" placeholder="+212 6XX XXX XXX">
                             </div>
                             <div class="form-group">
-                                <label><i class="fas fa-hard-hat"></i> Type de Projet</label>
-                                <select>
+                                <label for="form-project-type"><i class="fas fa-hard-hat"></i> Type de Projet</label>
+                                <select id="form-project-type" name="project_type">
                                     <option value="" disabled selected>Choisir un type de projet...</option>
-                                    <option>Étude G1 - Étude préliminaire</option>
-                                    <option>Étude G2 AVP - Avant-Projet</option>
-                                    <option>Étude G2 PRO - Phase Projet</option>
-                                    <option>Excavations / Soutènement</option>
-                                    <option>Fondations Spéciales</option>
-                                    <option>Stabilité de Talus</option>
-                                    <option>Infrastructure Routière/Portuaire</option>
-                                    <option>Autre</option>
+                                    <option value="g1">Étude G1 - Étude préliminaire</option>
+                                    <option value="g2_avp">Étude G2 AVP - Avant-Projet</option>
+                                    <option value="g2_pro">Étude G2 PRO - Phase Projet</option>
+                                    <option value="excavation">Excavations / Soutènement</option>
+                                    <option value="foundation">Fondations Spéciales</option>
+                                    <option value="slope">Stabilité de Talus</option>
+                                    <option value="infrastructure">Infrastructure Routière/Portuaire</option>
+                                    <option value="other">Autre</option>
                                 </select>
                             </div>
                         </div>
                         <div class="form-grid">
                             <div class="form-group">
-                                <label><i class="fas fa-map-marker-alt"></i> Localisation du Projet</label>
-                                <input type="text" placeholder="Ex: Rabat, Casablanca, Tanger...">
+                                <label for="form-location"><i class="fas fa-map-marker-alt"></i> Localisation du Projet</label>
+                                <input type="text" id="form-location" name="location" placeholder="Ex: Rabat, Casablanca, Tanger...">
                             </div>
                             <div class="form-group">
-                                <label><i class="fas fa-ruler-combined"></i> Surface approximative</label>
-                                <input type="text" placeholder="Ex: 500 m², 2 hectares...">
+                                <label for="form-area"><i class="fas fa-ruler-combined"></i> Surface approximative</label>
+                                <input type="text" id="form-area" name="area" placeholder="Ex: 500 m², 2 hectares...">
                             </div>
                         </div>
                         <div class="form-group">
-                            <label><i class="fas fa-file-alt"></i> Description des Besoins</label>
-                            <textarea placeholder="Décrivez brièvement les prestations souhaitées (Sondage, G2 PRO, Dossier d'exécution, nombre de niveaux, type de construction...)"></textarea>
+                            <label for="form-description"><i class="fas fa-file-alt"></i> Description des Besoins</label>
+                            <textarea id="form-description" name="description" placeholder="Décrivez brièvement les prestations souhaitées (Sondage, G2 PRO, Dossier d'exécution, nombre de niveaux, type de construction...)"></textarea>
                         </div>
                         <button type="submit" class="btn btn-submit">
                             <i class="fas fa-paper-plane"></i> Envoyer la demande de devis
@@ -430,7 +440,7 @@
     </section>
 
     <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/212673161611?text=Bonjour%20GEOSAFE%2C%20je%20souhaite%20un%20devis%20pour%20une%20%C3%A9tude%20g%C3%A9otechnique." class="whatsapp-float" target="_blank" title="Contactez-nous sur WhatsApp">
+    <a href="https://wa.me/212673161611?text=Bonjour%20GEOSAFE%2C%20je%20souhaite%20un%20devis%20pour%20une%20%C3%A9tude%20g%C3%A9otechnique." class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Contactez-nous sur WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -453,16 +463,16 @@
                 </div>
                 <p>GEOSAFE est un Bureau d'Études Géotechnique engagé pour la sécurité et la pérennité des constructions au Maroc.</p>
                 <div style="margin-top: 20px;">
-                    <a href="https://ma.linkedin.com/company/geosafebet" target="_blank" style="font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://ma.linkedin.com/company/geosafebet" target="_blank" rel="noopener noreferrer" style="font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
             <div class="footer-links">
                 <h4>Services</h4>
                 <ul>
-                    <li><a href="#">Études de Sol</a></li>
-                    <li><a href="#">Sondages Geotechniques</a></li>
-                    <li><a href="#">Essais Laboratoire</a></li>
-                    <li><a href="#">Risque Sismique</a></li>
+                    <li><a href="#services">Études de Sol</a></li>
+                    <li><a href="#services">Sondages Géotechniques</a></li>
+                    <li><a href="#services">Essais Laboratoire</a></li>
+                    <li><a href="#services">Risque Sismique</a></li>
                 </ul>
             </div>
             <div class="footer-links">
@@ -470,16 +480,16 @@
                 <ul>
                     <li><a href="#about">À Propos</a></li>
                     <li><a href="#portfolio">Réalisations</a></li>
-                    <li><a href="#">Recrutement</a></li>
+                    <li><a href="#quote">Recrutement</a></li>
                     <li><a href="#quote">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-links">
                 <h4>Contact</h4>
                 <ul>
-                    <li><i class="fas fa-envelope"></i> contact@geosafe.ma</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Imm 7, Rue Moulay Rachid, Hassan, Rabat, Maroc</li>
-                    <li><i class="fas fa-phone"></i> +212 6 73 16 16 11</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:contact@geosafe.ma">contact@geosafe.ma</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> <a href="https://maps.google.com/?q=Imm+7,+Rue+Moulay+Rachid,+Hassan,+Rabat,+Maroc" target="_blank" rel="noopener noreferrer">Imm 7, Rue Moulay Rachid, Hassan, Rabat, Maroc</a></li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+212673161611">+212 6 73 16 16 11</a></li>
                 </ul>
             </div>
         </div>

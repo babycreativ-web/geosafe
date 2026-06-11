@@ -1,5 +1,9 @@
-// Initialize GSAP ScrollTrigger
-gsap.registerPlugin(ScrollTrigger);
+// Guard against GSAP failing to load
+const gsapActive = typeof gsap !== 'undefined';
+
+if (gsapActive) {
+    gsap.registerPlugin(ScrollTrigger);
+}
 
 // Smooth scroll for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -12,9 +16,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Header scroll effect
 const header = document.querySelector('header');
-window.addEventListener('scroll', () => {
-    header.style.boxShadow = window.scrollY > 100 ? '0 4px 20px rgba(0,0,0,0.1)' : '0 2px 15px rgba(0,0,0,0.05)';
-});
+if (header) {
+    window.addEventListener('scroll', () => {
+        header.style.boxShadow = window.scrollY > 100 ? '0 4px 20px rgba(0,0,0,0.1)' : '0 2px 15px rgba(0,0,0,0.05)';
+    });
+}
 
 // Loading Screen & Initial Hero Animation
 window.addEventListener('load', () => {
@@ -22,42 +28,65 @@ window.addEventListener('load', () => {
     if (loader) { 
         setTimeout(() => { 
             loader.classList.add('hidden'); 
+            document.body.classList.remove('loading');
             // Trigger Hero Animation after loader
             initHeroAnimations();
         }, 1500); 
     } else {
+        document.body.classList.remove('loading');
         initHeroAnimations();
     }
 });
 
 function initHeroAnimations() {
-    gsap.to(".animate-hero", {
-        opacity: 1,
-        visibility: "visible",
-        y: 0,
-        duration: 1.2,
-        stagger: 0.2,
-        ease: "power4.out",
-        delay: 0.5
-    });
+    if (gsapActive) {
+        gsap.fromTo(".animate-hero", 
+            { opacity: 0, y: 30 },
+            {
+                opacity: 1,
+                visibility: "visible",
+                y: 0,
+                duration: 1.2,
+                stagger: 0.2,
+                ease: "power4.out",
+                delay: 0.2
+            }
+        );
+    } else {
+        document.querySelectorAll('.animate-hero').forEach(el => {
+            el.style.opacity = '1';
+            el.style.visibility = 'visible';
+        });
+    }
 }
 
 // Professional Scroll Animations
 function initScrollAnimations() {
+    if (!gsapActive) {
+        document.querySelectorAll(".reveal, .animate-text, .service-card, .project-card, .stat-item, .founder-image-wrapper").forEach(el => {
+            el.style.opacity = '1';
+            el.style.visibility = 'visible';
+        });
+        return;
+    }
+
     // Reveal Section Headers and Text
     document.querySelectorAll(".reveal, .animate-text").forEach(el => {
-        gsap.to(el, {
-            scrollTrigger: {
-                trigger: el,
-                start: "top 85%",
-                toggleActions: "play none none none"
-            },
-            opacity: 1,
-            visibility: "visible",
-            y: 0,
-            duration: 1,
-            ease: "power3.out"
-        });
+        gsap.fromTo(el,
+            { opacity: 0, y: 30 },
+            {
+                scrollTrigger: {
+                    trigger: el,
+                    start: "top 85%",
+                    toggleActions: "play none none none"
+                },
+                opacity: 1,
+                visibility: "visible",
+                y: 0,
+                duration: 1,
+                ease: "power3.out"
+            }
+        );
     });
 
     // Staggered Grids (Services, Stats, Portfolio)
@@ -66,35 +95,42 @@ function initScrollAnimations() {
         const grid = document.querySelector(selector);
         if (grid) {
             const children = grid.children;
-            gsap.to(children, {
-                scrollTrigger: {
-                    trigger: grid,
-                    start: "top 80%"
-                },
-                opacity: 1,
-                visibility: "visible",
-                y: 0,
-                duration: 0.8,
-                stagger: 0.15,
-                ease: "power2.out"
-            });
+            gsap.fromTo(children,
+                { opacity: 0, y: 40 },
+                {
+                    scrollTrigger: {
+                        trigger: grid,
+                        start: "top 80%"
+                    },
+                    opacity: 1,
+                    visibility: "visible",
+                    y: 0,
+                    duration: 0.8,
+                    stagger: 0.15,
+                    ease: "power2.out"
+                }
+            );
         }
     });
 
     // Founder Section Specialized Animation
     const founderImg = document.querySelector(".founder-image-wrapper");
     if (founderImg) {
-        gsap.to(founderImg, {
-            scrollTrigger: {
-                trigger: founderImg,
-                start: "top 75%"
-            },
-            opacity: 1,
-            visibility: "visible",
-            scale: 1,
-            duration: 1.5,
-            ease: "expo.out"
-        });
+        gsap.fromTo(founderImg,
+            { opacity: 0, scale: 0.9, y: 30 },
+            {
+                scrollTrigger: {
+                    trigger: founderImg,
+                    start: "top 75%"
+                },
+                opacity: 1,
+                visibility: "visible",
+                scale: 1,
+                y: 0,
+                duration: 1.5,
+                ease: "expo.out"
+            }
+        );
     }
 }
 
@@ -105,16 +141,20 @@ initScrollAnimations();
 function animateCounters() {
     document.querySelectorAll('.stat-number').forEach(counter => {
         const target = parseInt(counter.getAttribute('data-target'));
-        gsap.to(counter, {
-            innerText: target,
-            duration: 2.5,
-            snap: { innerText: 1 },
-            scrollTrigger: {
-                trigger: counter,
-                start: "top 90%"
-            },
-            ease: "power2.inOut"
-        });
+        if (gsapActive) {
+            gsap.to(counter, {
+                innerText: target,
+                duration: 2.5,
+                snap: { innerText: 1 },
+                scrollTrigger: {
+                    trigger: counter,
+                    start: "top 90%"
+                },
+                ease: "power2.inOut"
+            });
+        } else {
+            counter.innerText = target;
+        }
     });
 }
 animateCounters();
@@ -125,11 +165,16 @@ if (form) {
     form.addEventListener('submit', function(e) {
         e.preventDefault();
         const btn = this.querySelector('button[type="submit"]');
-        const orig = btn.textContent;
-        btn.textContent = 'Demande envoyee avec succes !';
+        const orig = btn.innerHTML;
+        btn.innerHTML = '<i class="fas fa-check-circle"></i> Demande envoyée avec succès !';
         btn.style.background = '#27ae60';
         btn.disabled = true;
-        setTimeout(() => { btn.textContent = orig; btn.style.background = ''; btn.disabled = false; this.reset(); }, 3000);
+        setTimeout(() => { 
+            btn.innerHTML = orig; 
+            btn.style.background = ''; 
+            btn.disabled = false; 
+            this.reset(); 
+        }, 3000);
     });
 }
 
