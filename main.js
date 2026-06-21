@@ -167,7 +167,7 @@ if (form) {
         const btn = this.querySelector('button[type="submit"]');
         const orig = btn.innerHTML;
         btn.innerHTML = '<i class="fas fa-check-circle"></i> Demande envoyée avec succès !';
-        btn.style.background = '#27ae60';
+        btn.style.background = 'var(--secondary)';
         btn.disabled = true;
         setTimeout(() => { 
             btn.innerHTML = orig; 

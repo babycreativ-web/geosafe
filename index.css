@@ -2,18 +2,29 @@
 
 :root {
     /* Primary Palette */
-    --primary: #0a2540;
-    --primary-light: #1a3a5a;
-    --accent: #ff6b00;
-    --accent-hover: #e65a00;
+    --primary: #1B3A4C;           /* Bleu - Deep Slate Blue */
+    --primary-rgb: 27, 58, 76;
+    --primary-light: #285570;     /* Lighter slate blue for gradients & hovers */
+    
+    /* Secondary Palette */
+    --secondary: #2E5D57;         /* Vert - Deep Forest Teal */
+    --secondary-rgb: 46, 93, 87;
+    --secondary-light: #3F7F77;   /* Lighter Vert for highlights */
+    
+    /* Accent Palette */
+    --accent: #F5AC1B;            /* Moutard - Vibrant safety gold */
+    --accent-rgb: 245, 172, 27;
+    --accent-hover: #D9940E;      /* Darker Moutard for button hover state */
+    --accent-light: #FEF7EA;      /* Light gold tint for soft badges */
     
     /* Neutral Palette */
     --bg-white: #ffffff;
-    --bg-light: #f6f9fc;
-    --text-main: #3c4257;
-    --text-heading: #0a2540;
-    --text-muted: #697386;
-    --border: #e3e8ee;
+    --bg-light: #f4f7f9;          /* Subtle cool light gray background */
+    --text-main: #2F3E46;         /* Slate dark gray for readable body text */
+    --text-heading: #1B3A4C;      /* Bleu for all headings */
+    --text-muted: #6C7A89;        /* Muted slate gray for secondary text */
+    --border: #C0C0C0;            /* Gris - Silver gray for borders and dividers */
+    --border-light: #E2E8F0;      /* Soft gray border for layout cards */
     
     /* Layout */
     --container-width: 1200px;
@@ -21,6 +32,9 @@
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    
+    /* Specialized brand blocks */
+    --footer-bg: #0D202B;         /* Darkest Bleu for premium footer */
 }
 
 * {
@@ -107,23 +121,23 @@ ul {
 }
 
 .btn-header:hover {
-    background: linear-gradient(135deg, #ff8c00 0%, var(--accent) 100%);
+    background: linear-gradient(135deg, #F9C35A 0%, var(--accent) 100%);
     color: white;
     border-color: transparent;
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(255, 107, 0, 0.25);
+    box-shadow: 0 6px 18px rgba(245, 172, 27, 0.25);
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #ff8c00 0%, var(--accent) 100%);
+    background: linear-gradient(135deg, #F9C35A 0%, var(--accent) 100%);
     color: white;
-    box-shadow: 0 4px 15px rgba(255, 107, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(245, 172, 27, 0.2);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 28px rgba(255, 107, 0, 0.35);
-    background: linear-gradient(135deg, #ff9a22 0%, #ff7a1a 100%);
+    box-shadow: 0 12px 28px rgba(245, 172, 27, 0.35);
+    background: linear-gradient(135deg, var(--accent) 0%, #D9940E 100%);
 }
 
 .btn-primary::after {
@@ -256,7 +270,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(10, 37, 64, 0.8), rgba(10, 37, 64, 0.6)), url('geosafe_hero_bg_v2_1778200248845.png');
+    background: linear-gradient(rgba(var(--primary-rgb), 0.85), rgba(var(--primary-rgb), 0.65)), url('geosafe_hero_bg_v2_1778200248845.png');
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -294,7 +308,7 @@ header {
 .hero-badge {
     display: inline-block;
     padding: 6px 12px;
-    background: rgba(255, 107, 0, 0.2);
+    background: rgba(var(--accent-rgb), 0.15);
     border: 1px solid var(--accent);
     color: var(--accent);
     border-radius: 20px;
@@ -378,7 +392,7 @@ header {
 /* ========== STATS SECTION ========== */
 .stats-section {
     padding: 80px 20px;
-    background: linear-gradient(135deg, var(--primary) 0%, #0d3156 100%);
+    background: linear-gradient(135deg, var(--primary) 0%, #102430 100%);
     color: white;
 }
 
@@ -712,7 +726,7 @@ header {
     border-color: var(--accent);
     color: var(--accent);
     transform: translateY(-3px);
-    box-shadow: 0 8px 24px rgba(255, 107, 0, 0.12);
+    box-shadow: 0 8px 24px rgba(var(--accent-rgb), 0.12);
 }
 
 @keyframes marquee {
@@ -807,7 +821,7 @@ header {
     margin: 0 auto;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 20px 60px rgba(10, 37, 64, 0.12);
+    box-shadow: 0 20px 60px rgba(var(--primary-rgb), 0.12);
 }
 
 .quote-layout .quote-sidebar {
@@ -836,7 +850,7 @@ header {
     position: absolute;
     width: 300px;
     height: 300px;
-    background: radial-gradient(circle, rgba(255, 107, 0, 0.08) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(var(--accent-rgb), 0.08) 0%, transparent 70%);
     top: -100px;
     right: -100px;
     pointer-events: none;
@@ -864,15 +878,15 @@ header {
 .sidebar-item:hover {
     background: rgba(255, 255, 255, 0.06);
     transform: translateX(6px);
-    border-color: rgba(255, 107, 0, 0.25);
+    border-color: rgba(var(--accent-rgb), 0.25);
 }
 
 .sidebar-icon {
     width: 46px;
     height: 46px;
     border-radius: 12px;
-    background: rgba(255, 107, 0, 0.1);
-    border: 1px solid rgba(255, 107, 0, 0.2);
+    background: rgba(var(--accent-rgb), 0.1);
+    border: 1px solid rgba(var(--accent-rgb), 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -886,7 +900,7 @@ header {
     background: var(--accent);
     color: white;
     transform: scale(1.1) rotate(5deg);
-    box-shadow: 0 4px 15px rgba(255, 107, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(var(--accent-rgb), 0.3);
 }
 
 .sidebar-item strong {
@@ -970,7 +984,7 @@ header {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ff6b00' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F5AC1B' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 18px center;
     background-size: 16px;
@@ -983,7 +997,7 @@ header {
     outline: none;
     border-color: var(--accent);
     background: white;
-    box-shadow: 0 0 0 4px rgba(255, 107, 0, 0.1);
+    box-shadow: 0 0 0 4px rgba(var(--accent-rgb), 0.1);
 }
 
 .form-group input::placeholder,
@@ -1002,7 +1016,7 @@ header {
     justify-content: center;
     width: 100%;
     padding: 16px 24px;
-    background: linear-gradient(135deg, #ff8c00 0%, var(--accent) 100%);
+    background: linear-gradient(135deg, #F9C35A 0%, var(--accent) 100%);
     color: white;
     border: none;
     border-radius: 50px;
@@ -1013,7 +1027,7 @@ header {
     font-family: inherit;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(255, 107, 0, 0.25);
+    box-shadow: 0 4px 15px rgba(var(--accent-rgb), 0.25);
     letter-spacing: 0.5px;
 }
 
@@ -1025,8 +1039,8 @@ header {
 
 .btn-submit:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(255, 107, 0, 0.4);
-    background: linear-gradient(135deg, #ff9a22 0%, #ff7a1a 100%);
+    box-shadow: 0 10px 25px rgba(var(--accent-rgb), 0.4);
+    background: linear-gradient(135deg, var(--accent) 0%, #D9940E 100%);
 }
 
 .btn-submit:hover i {
@@ -1058,7 +1072,7 @@ header {
 
 /* Footer */
 footer {
-    background: #051528;
+    background: var(--footer-bg);
     color: white;
     padding: 80px 20px 40px;
 }
@@ -1316,7 +1330,7 @@ footer {
 }
 
 .testimonial-stars {
-    color: #f59e0b;
+    color: var(--accent);
     font-size: 1rem;
     margin-bottom: 20px;
     display: flex;
