@@ -115,29 +115,29 @@ ul {
 .btn-header {
     padding: 10px 22px;
     font-size: 0.85rem;
-    border: 1.5px solid var(--accent);
+    border: 1.5px solid var(--secondary);
     background: transparent;
-    color: var(--accent);
+    color: var(--secondary);
 }
 
 .btn-header:hover {
-    background: linear-gradient(135deg, #F9C35A 0%, var(--accent) 100%);
+    background: linear-gradient(135deg, var(--secondary-light) 0%, var(--secondary) 100%);
     color: white;
     border-color: transparent;
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(245, 172, 27, 0.25);
+    box-shadow: 0 6px 18px rgba(var(--secondary-rgb), 0.25);
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #F9C35A 0%, var(--accent) 100%);
+    background: linear-gradient(135deg, var(--secondary-light) 0%, var(--secondary) 100%);
     color: white;
-    box-shadow: 0 4px 15px rgba(245, 172, 27, 0.2);
+    box-shadow: 0 4px 15px rgba(var(--secondary-rgb), 0.2);
 }
 
 .btn-primary:hover {
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 28px rgba(245, 172, 27, 0.35);
-    background: linear-gradient(135deg, var(--accent) 0%, #D9940E 100%);
+    box-shadow: 0 12px 28px rgba(var(--secondary-rgb), 0.35);
+    background: linear-gradient(135deg, var(--secondary) 0%, #1D3D39 100%);
 }
 
 .btn-primary::after {
@@ -657,7 +657,7 @@ header {
     left: 0;
     width: 100%;
     padding: 30px;
-    background: linear-gradient(transparent, rgba(10, 37, 64, 0.9));
+    background: linear-gradient(transparent, rgba(var(--primary-rgb), 0.95));
     color: white;
     transform: translateY(20px);
     opacity: 0;
@@ -1016,7 +1016,7 @@ header {
     justify-content: center;
     width: 100%;
     padding: 16px 24px;
-    background: linear-gradient(135deg, #F9C35A 0%, var(--accent) 100%);
+    background: linear-gradient(135deg, var(--secondary-light) 0%, var(--secondary) 100%);
     color: white;
     border: none;
     border-radius: 50px;
@@ -1027,7 +1027,7 @@ header {
     font-family: inherit;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(var(--accent-rgb), 0.25);
+    box-shadow: 0 4px 15px rgba(var(--secondary-rgb), 0.25);
     letter-spacing: 0.5px;
 }
 
@@ -1039,8 +1039,8 @@ header {
 
 .btn-submit:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 25px rgba(var(--accent-rgb), 0.4);
-    background: linear-gradient(135deg, var(--accent) 0%, #D9940E 100%);
+    box-shadow: 0 10px 25px rgba(var(--secondary-rgb), 0.4);
+    background: linear-gradient(135deg, var(--secondary) 0%, #1D3D39 100%);
 }
 
 .btn-submit:hover i {
