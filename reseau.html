@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réseau GEOSAFE | Partenariat &amp; Sous-traitance</title>
+    <meta name="description" content="Rejoignez le réseau GEOSAFE au Maroc : opportunités pour architectes, bureaux d'études structures, experts géologues, laboratoires et sous-traitants.">
+    <link rel="stylesheet" href="index.css?v=1.0.2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo_horizontal.png" alt="GEOSAFE Official Logo" style="height: 45px;">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="bureau.html">Notre Bureau</a></li>
+                <li><a href="expertises.html">Expertises</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="ressources.html">Ressources</a></li>
+                <li><a href="reseau.html">Réseau GEOSAFE</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="header-btns-wrapper" style="display: flex; gap: 10px; align-items: center;">
+                <a href="contact.html#quote" class="btn btn-header btn-yellow">Demander un Devis <i class="fas fa-file-invoice btn-icon"></i></a>
+                <a href="reseau.html" class="btn btn-header btn-yellow">Rejoindre le Réseau <i class="fas fa-users btn-icon"></i></a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="container">
+            <h1>Réseau GEOSAFE</h1>
+            <p>Développons ensemble des partenariats durables. Architectes, experts et sous-traitants, rejoignez-nous.</p>
+        </div>
+    </section>
+
+    <!-- Network Forms Section -->
+    <section class="reseau-section">
+        <div class="container">
+            <div class="reseau-intro">
+                <h2 style="color: var(--primary); margin-bottom: 20px;">Construisons notre base de données collaborative</h2>
+                <p style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.6;">Sélectionnez votre profil ci-dessous pour soumettre votre candidature ou proposition de collaboration technique.</p>
+            </div>
+
+            <!-- Tab Buttons -->
+            <div class="reseau-tabs">
+                <button class="filter-btn active" onclick="switchTab('partenaire')"><i class="fas fa-handshake"></i> Partenaires (Architectes, BET)</button>
+                <button class="filter-btn" onclick="switchTab('expert')"><i class="fas fa-user-tie"></i> Experts (Géologues, Topographes)</button>
+                <button class="filter-btn" onclick="switchTab('sous-traitant')"><i class="fas fa-tools"></i> Sous-traitants &amp; Fournisseurs</button>
+            </div>
+
+            <!-- Tab 1: Partenaires -->
+            <div id="tab-partenaire" class="reseau-form-container tab-content">
+                <h3 class="form-subtitle">Devenir Partenaire</h3>
+                <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px;">Destiné aux architectes, bureaux d'études de structure, promoteurs immobiliers et entreprises de construction.</p>
+                <form id="form-partner" action="#" method="POST">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label><i class="fas fa-building"></i> Nom de l'entreprise / Cabinet</label>
+                            <input type="text" required placeholder="Ex: Cabinet d'Architecture X">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-user"></i> Nom de l'interlocuteur</label>
+                            <input type="text" required placeholder="Votre nom complet">
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label><i class="fas fa-envelope"></i> Email professionnel</label>
+                            <input type="email" required placeholder="contact@votreentreprise.ma">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-briefcase"></i> Type d'activité</label>
+                            <select required>
+                                <option value="architecte">Architecte</option>
+                                <option value="bet">Bureau d'Études Structure (BET)</option>
+                                <option value="promoteur">Promoteur Immobilier</option>
+                                <option value="entreprise">Entreprise BTP</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-comment"></i> Proposition de partenariat</label>
+                        <textarea placeholder="Décrivez brièvement comment nous pouvons collaborer sur vos futurs projets géotechniques..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;"><i class="fas fa-paper-plane"></i> Soumettre ma demande de partenariat</button>
+                </form>
+            </div>
+
+            <!-- Tab 2: Experts -->
+            <div id="tab-expert" class="reseau-form-container tab-content" style="display: none;">
+                <h3 class="form-subtitle">Rejoindre le Réseau d'Experts</h3>
+                <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px;">Destiné aux géologues, topographes, laboratoires d'essais et experts indépendants.</p>
+                <form id="form-expert" action="#" method="POST">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label><i class="fas fa-user-circle"></i> Nom complet / Raison sociale</label>
+                            <input type="text" required placeholder="Ex: Dr. Ahmed Alami">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-envelope"></i> Email</label>
+                            <input type="email" required placeholder="nom@expert.ma">
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label><i class="fas fa-graduation-cap"></i> Spécialité principale</label>
+                            <select required>
+                                <option value="geologue">Géologue de terrain</option>
+                                <option value="topographe">Géomètre Topographe</option>
+                                <option value="geophysicien">Géophysicien</option>
+                                <option value="laboratoire">Laboratoire d'essais tiers</option>
+                                <option value="autre">Autre Expert</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-phone"></i> Téléphone</label>
+                            <input type="tel" required placeholder="+212 6XX XXX XXX">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-award"></i> Références &amp; compétences clés</label>
+                        <textarea placeholder="Listez vos principales compétences, matériels disponibles, ou diplômes..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;"><i class="fas fa-user-check"></i> Rejoindre la base de données experts</button>
+                </form>
+            </div>
+
+            <!-- Tab 3: Sous-traitants -->
+            <div id="tab-sous-traitant" class="reseau-form-container tab-content" style="display: none;">
+                <h3 class="form-subtitle">Sous-traitants &amp; Fournisseurs</h3>
+                <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px;">Destiné aux prestataires de forages, travaux de micropieux, instrumentation de sols, géophysique, etc.</p>
+                <form id="form-subcontractor" action="#" method="POST">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label><i class="fas fa-industry"></i> Nom de l'entreprise</label>
+                            <input type="text" required placeholder="Ex: Forages Souss S.A.R.L.">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-envelope"></i> Email de contact</label>
+                            <input type="email" required placeholder="commercial@forages.ma">
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label><i class="fas fa-cog"></i> Prestations proposées</label>
+                            <select required>
+                                <option value="forage">Forages pressiométriques/carottés</option>
+                                <option value="micropieux">Travaux de micropieux / clouage</option>
+                                <option value="instrumentation">Instrumentation (inclinomètres/piézomètres)</option>
+                                <option value="materiel">Vente / Location de matériel géotechnique</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-map-marker-alt"></i> Zones d'intervention au Maroc</label>
+                            <input type="text" required placeholder="Ex: Tout le Maroc, Région Nord, etc.">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-truck-loading"></i> Présentation du parc matériel &amp; capacités</label>
+                        <textarea placeholder="Décrivez vos foreuses, équipements d'essais, capacité de production hebdomadaire, etc..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;"><i class="fas fa-clipboard-check"></i> S'enregistrer comme fournisseur agréé</button>
+                </form>
+            </div>
+
+            <!-- Newsletter Box -->
+            <div class="newsletter-box">
+                <i class="fas fa-envelope-open-text" style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"></i>
+                <h3 style="color: var(--primary);">Newsletter Technique</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin: 10px 0 20px;">Inscrivez-vous pour recevoir nos actualités réglementaires (RPS 2011) et retours d'expériences géotechniques au Maroc.</p>
+                <form id="form-newsletter" action="#" method="POST" style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                    <input type="email" required placeholder="votre@email.com" style="padding: 12px 20px; border-radius: 30px; border: 1px solid var(--border); width: 100%; max-width: 300px;">
+                    <button type="submit" class="btn btn-primary" style="padding: 12px 24px;"><i class="fas fa-paper-plane"></i> S'abonner</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/212673161611?text=Bonjour%20GEOSAFE%2C%20je%20souhaite%20un%20devis%20pour%20une%20%C3%A9tude%20g%C3%A9otechnique." class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Contactez-nous sur WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Retour en haut">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <img src="logo_square.png" alt="GEOSAFE" style="width: 120px; opacity: 0.9;">
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="logo_square_white.png" alt="GEOSAFE Official Logo">
+                </div>
+                <p>GEOSAFE est un Bureau d'Études Géotechnique engagé pour la sécurité et la pérennité des constructions au Maroc.</p>
+                <div style="margin-top: 20px;">
+                    <a href="https://ma.linkedin.com/company/geosafebet" target="_blank" rel="noopener noreferrer" style="font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="expertises.html">Études de Sol</a></li>
+                    <li><a href="expertises.html">Sondages Géotechniques</a></li>
+                    <li><a href="expertises.html">Essais Laboratoire</a></li>
+                    <li><a href="expertises.html">Risque Sismique</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>GEOSAFE</h4>
+                <ul>
+                    <li><a href="bureau.html">À Propos</a></li>
+                    <li><a href="realisations.html">Réalisations</a></li>
+                    <li><a href="reseau.html">Rejoindre le Réseau</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:contact@geosafe.ma">contact@geosafe.ma</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> <a href="https://maps.google.com/?q=Imm+7,+Rue+Moulay+Rachid,+Hassan,+Rabat,+Maroc" target="_blank" rel="noopener noreferrer">Imm 7, Rue Moulay Rachid, Hassan, Rabat, Maroc</a></li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+212673161611">+212 6 73 16 16 11</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 GEOSAFE. Tous droits réservés. Bâtir sur la certitude.</p>
+        </div>
+    </footer>
+
+    <script src="main.js?v=1.0.2"></script>
+    <script>
+        // JS tab switcher for Reseau forms
+        function switchTab(tabName) {
+            const tabs = document.querySelectorAll('.reseau-tabs button');
+            const contents = document.querySelectorAll('.tab-content');
+
+            tabs.forEach(t => t.classList.remove('active'));
+            contents.forEach(c => c.style.display = 'none');
+
+            // Find clicked tab button
+            const clickedBtn = Array.from(tabs).find(t => t.outerHTML.includes(tabName));
+            if (clickedBtn) clickedBtn.classList.add('active');
+
+            // Show selected form
+            const activeContent = document.getElementById('tab-' + tabName);
+            if (activeContent) activeContent.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

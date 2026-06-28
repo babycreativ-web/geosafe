@@ -1502,3 +1502,242 @@ footer {
     100% { width: 100%; }
 }
 
+/* ========== MULTI-PAGE EXTENSION STYLES ========== */
+
+/* Active link underline */
+.nav-links a.active::after {
+    width: 100%;
+}
+
+/* Header Action Buttons (🟡 color overrides) */
+.btn-yellow {
+    background: var(--accent);
+    color: var(--primary) !important;
+    border: none;
+}
+.btn-yellow:hover {
+    background: var(--accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(var(--accent-rgb), 0.35);
+}
+
+/* Sub-page Hero / Header Banner */
+.page-banner {
+    padding: 140px 20px 60px;
+    background: linear-gradient(135deg, var(--primary) 0%, #102430 100%);
+    color: white;
+    text-align: center;
+}
+.page-banner h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+}
+.page-banner p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Notre Bureau Organization & Methodology */
+.bureau-section {
+    padding: 80px 20px;
+}
+.bureau-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .bureau-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.method-list {
+    margin-top: 20px;
+}
+.method-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.method-number {
+    width: 35px;
+    height: 35px;
+    background: var(--accent-light);
+    color: var(--accent);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+/* Expertises mother page / layout */
+.expertises-section {
+    padding: var(--section-padding);
+}
+.expertise-category-card {
+    background: var(--bg-light);
+    border-radius: 16px;
+    padding: 40px;
+    border: 1px solid var(--border-light);
+    margin-bottom: 40px;
+}
+.expertise-category-card h2 {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.expertise-sub-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+.expertise-sub-item {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    border-top: 3px solid var(--accent);
+}
+.expertise-sub-item h4 {
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+/* Réalisations categorized filters */
+.portfolio-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 40px 0;
+}
+.filter-btn {
+    padding: 10px 22px;
+    border-radius: 30px;
+    border: 1px solid var(--border);
+    background: white;
+    color: var(--text-main);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.filter-btn.active, .filter-btn:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+.project-detail-text {
+    padding: 15px 0 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+.project-detail-text strong {
+    color: var(--accent);
+}
+
+/* Ressources / articles cards */
+.ressources-section {
+    padding: 80px 20px;
+}
+.ressources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+.ressource-card {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--border-light);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+.ressource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+.ressource-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.ressource-content {
+    padding: 25px;
+}
+.ressource-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    background: var(--accent-light);
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.ressource-content h3 {
+    margin-bottom: 12px;
+    color: var(--primary);
+}
+.ressource-content p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+/* Réseau GEOSAFE Database forms */
+.reseau-section {
+    padding: 80px 20px;
+}
+.reseau-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+.reseau-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.reseau-form-container {
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-lg);
+    max-width: 800px;
+    margin: 0 auto;
+}
+.form-subtitle {
+    margin-bottom: 25px;
+    color: var(--primary);
+    text-align: center;
+}
+.newsletter-box {
+    background: var(--bg-light);
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    max-width: 600px;
+    margin: 60px auto 0;
+    border: 1px solid var(--border-light);
+}
+
+/* Page layout active nav adjustment */
+.active-nav-link {
+    color: var(--accent) !important;
+}
+
+

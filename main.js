@@ -5,6 +5,19 @@ if (gsapActive) {
     gsap.registerPlugin(ScrollTrigger);
 }
 
+// Active Nav Link Highlight based on current path
+const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+document.querySelectorAll('.nav-links a').forEach(link => {
+    const linkHref = link.getAttribute('href');
+    if (linkHref === currentPath || 
+        (currentPath === 'index.html' && linkHref.startsWith('#')) || 
+        (currentPath === '' && linkHref === 'index.html')) {
+        link.classList.add('active');
+    } else {
+        link.classList.remove('active');
+    }
+});
+
 // Smooth scroll for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
