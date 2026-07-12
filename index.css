@@ -255,6 +255,23 @@ header {
     width: 100%;
 }
 
+@media (min-width: 1151px) {
+    .logo {
+        flex: 1 1 0%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .nav-links {
+        flex: 0 0 auto;
+        justify-content: center;
+    }
+    .header-btns-wrapper {
+        flex: 1 1 0%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
 /* Hero Section */
 .hero {
     height: 100vh;
