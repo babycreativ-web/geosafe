@@ -163,7 +163,28 @@
 
     <!-- Loader -->
     <div class="loader" id="loader">
-        <img src="logo_square.png" alt="GEOSAFE" style="width: 120px; opacity: 0.9;">
+        <script>
+            try {
+                if (sessionStorage.getItem('geosafe_loaded')) {
+                    document.getElementById('loader').style.display = 'none';
+                    document.body.classList.remove('loading');
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        </script>
+        <div class="loader-logo-container">
+            <img src="logo_mark.png" alt="GEOSAFE Logo Mark" class="loader-logo-mark">
+            <div class="loader-logo-text">
+                <span>GE</span>
+                <span class="loader-o-wrapper">
+                    <svg viewBox="0 0 100 100" class="loader-o-svg">
+                        <path d="M 20,24 Q 50,30 80,24 C 80,56 70,80 50,90 C 30,80 20,56 20,24 Z" fill="none" stroke="#E3AD27" stroke-width="12" stroke-linejoin="round" stroke-linecap="round" />
+                    </svg>
+                </span>
+                <span>SAFE</span>
+            </div>
+        </div>
         <div class="loader-bar"><div class="loader-progress"></div></div>
     </div>
 

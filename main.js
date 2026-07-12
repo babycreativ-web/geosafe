@@ -38,10 +38,24 @@ if (header) {
 // Loading Screen & Initial Hero Animation
 window.addEventListener('load', () => {
     const loader = document.getElementById('loader');
-    if (loader) { 
+    const isFastLoad = document.documentElement.classList.contains('fast-load') || 
+                       (loader && (loader.style.display === 'none' || window.getComputedStyle(loader).display === 'none'));
+    
+    if (isFastLoad) {
+        if (loader) {
+            loader.classList.add('hidden');
+        }
+        document.body.classList.remove('loading');
+        initHeroAnimations();
+    } else if (loader) { 
         setTimeout(() => { 
             loader.classList.add('hidden'); 
             document.body.classList.remove('loading');
+            try {
+                sessionStorage.setItem('geosafe_loaded', 'true');
+            } catch (e) {
+                console.warn('sessionStorage is not available:', e);
+            }
             // Trigger Hero Animation after loader
             initHeroAnimations();
         }, 1500); 
