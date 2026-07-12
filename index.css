@@ -260,6 +260,7 @@ header {
         display: grid !important;
         grid-template-columns: 1fr auto 1fr;
         align-items: center;
+        max-width: 95% !important;
     }
     .logo {
         justify-self: start;
