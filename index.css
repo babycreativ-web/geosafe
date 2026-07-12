@@ -256,19 +256,20 @@ header {
 }
 
 @media (min-width: 1151px) {
+    .nav-container {
+        display: grid !important;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+    }
     .logo {
-        flex: 1 1 0%;
-        display: flex;
-        justify-content: flex-start;
+        justify-self: start;
     }
     .nav-links {
-        flex: 0 0 auto;
-        justify-content: center;
+        justify-self: center;
     }
     .header-btns-wrapper {
-        flex: 1 1 0%;
-        display: flex;
-        justify-content: flex-end;
+        justify-self: end !important;
+        justify-content: flex-end !important;
     }
 }
 
