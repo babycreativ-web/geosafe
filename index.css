@@ -1571,6 +1571,7 @@ html.fast-load body.loading {
     height: 2.1rem;
     margin: 0 4px;
     perspective: 1000px;
+    transform: translateY(-0.06em);
 }
 
 .loader-o-svg {
