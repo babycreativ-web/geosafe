@@ -52,11 +52,23 @@
                 <h2>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);">
                         <circle cx="32" cy="32" r="28" />
-                        <path d="M14 44h36" />
-                        <path d="M32 20v14" stroke-width="4.5" />
-                        <path d="M24 20h16" stroke-width="3.5" />
-                        <rect x="22" y="34" width="20" height="6" rx="1" fill="currentColor" fill-opacity="0.2" />
-                        <path d="M27 40v12 M37 40v12" stroke-width="2" />
+                        <!-- Ground Line -->
+                        <path d="M10 24h44" />
+                        <!-- Superstructure Column -->
+                        <path d="M30 12h4v12h-4z" />
+                        <!-- Downward load vector -->
+                        <path d="M32 6v6 M30 10l2 2 2-2" stroke-width="1.5" />
+                        <!-- Pile Cap (Semelle / Radier) -->
+                        <rect x="20" y="24" width="24" height="6" rx="1" fill="currentColor" fill-opacity="0.2" />
+                        <!-- Deep Piles (Pieux) -->
+                        <path d="M26 30v18" stroke-width="4.5" />
+                        <path d="M38 30v18" stroke-width="4.5" />
+                        <!-- Soil Layers (Stratification) -->
+                        <path d="M10 36h10 M44 36h10" stroke-width="1.5" stroke-dasharray="2 2" />
+                        <path d="M10 44h10 M44 44h10" stroke-width="1.5" stroke-dasharray="2 2" />
+                        <!-- Bearing / Reaction Force Vectors at the bottom -->
+                        <path d="M26 53v-5 M38 53v-5" stroke-width="1.5" />
+                        <path d="M24 51l2 2 2-2 M36 51l2 2 2-2" stroke-width="1.5" />
                     </svg>
                     Ingénierie Géotechnique
                 </h2>
@@ -82,9 +94,18 @@
                 <h2>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);">
                         <circle cx="32" cy="32" r="28" />
-                        <path d="M14 36c8 0 12-14 24-14h12v24H14z" fill="currentColor" fill-opacity="0.2" />
-                        <path d="M14 36c8 0 12-14 24-14h12" />
-                        <path d="M20 32c8 0 16 8 20 14" stroke-dasharray="3 3" />
+                        <!-- Slope Profile (Terrain) -->
+                        <path d="M10 46h10l20-24h14" />
+                        <!-- Failure Plane (Slip Circle Arc) -->
+                        <path d="M34 22 C26 26 20 34 18 46" stroke-dasharray="3 3" stroke-width="2" />
+                        <!-- Displacement Vector (Arrow showing slide) -->
+                        <path d="M28 27 Q22 32 20 38" stroke-width="1.5" />
+                        <path d="M18 36l2 2 2-2" stroke-width="1.5" />
+                        <!-- Stabilization Nails (Ancrages) crossing slip circle -->
+                        <path d="M33 30h10" stroke-width="2" />
+                        <path d="M27 38h10" stroke-width="2" />
+                        <!-- Nail Plates (perpendicular to slope) -->
+                        <path d="M32 29l2 2 M26 37l2 2" stroke-width="2" />
                     </svg>
                     Géologie &amp; Risques Naturels
                 </h2>
@@ -110,11 +131,21 @@
                 <h2>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);">
                         <circle cx="32" cy="32" r="28" />
-                        <path d="M16 46c10 0 15-8 28-8s8 8 8 8" />
-                        <path d="M20 40l6-16 14 4-6 10" />
-                        <circle cx="26" cy="24" r="2" fill="currentColor" />
-                        <circle cx="40" cy="28" r="2" fill="currentColor" />
-                        <path d="M34 38l-4 6a2 2 0 0 0 2 3l6-2a2 2 0 0 0 1-3l-5-4z" fill="currentColor" />
+                        <!-- Building Silhouettes (Urban Context) -->
+                        <path d="M12 24V14h8v10" stroke-width="1.5" />
+                        <path d="M18 24V8h8v16" stroke-width="1.5" />
+                        <!-- Ground Lines -->
+                        <path d="M6 24h18" />
+                        <path d="M24 48h22" />
+                        <!-- Retaining Wall (Soldier Pile/Paroi) -->
+                        <path d="M24 16v34" stroke-width="3" />
+                        <!-- Tieback Anchors (Tirants d'ancrage) -->
+                        <path d="M24 32L12 26" stroke-width="2" />
+                        <path d="M24 42L14 36" stroke-width="2" />
+                        <!-- Anchor Plates on the wall -->
+                        <path d="M23 32h2 M23 42h2" stroke-width="2" />
+                        <!-- Grout Bulbs (Bulbes d'ancrage) -->
+                        <path d="M15 27.5l-3-1.5 M17 37.5l-3-1.5" stroke-width="3" />
                     </svg>
                     Soutènement &amp; Excavations Profondes
                 </h2>
@@ -140,14 +171,23 @@
                 <h2>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="40" height="40" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent);">
                         <circle cx="32" cy="32" r="28" />
-                        <path d="M14 44h36" />
-                        <rect x="28" y="24" width="8" height="26" fill="currentColor" fill-opacity="0.2" />
-                        <path d="M28 24h8v26h-8z" stroke-dasharray="2 2" />
-                        <circle cx="22" cy="28" r="1.5" fill="currentColor" />
-                        <circle cx="24" cy="36" r="1.2" fill="currentColor" />
-                        <circle cx="21" cy="42" r="1.5" fill="currentColor" />
-                        <circle cx="42" cy="30" r="1.2" fill="currentColor" />
-                        <circle cx="39" cy="38" r="1.5" fill="currentColor" />
+                        <!-- Ground Level -->
+                        <path d="M10 20h44" />
+                        <!-- Compaction Force Vectors (Downward Arrows) -->
+                        <path d="M22 10v6 M22 16l-2-2 M22 16l2-2" stroke-width="1.5" />
+                        <path d="M32 8v8 M32 16l-2-2 M32 16l2-2" stroke-width="1.5" />
+                        <path d="M42 10v6 M42 16l-2-2 M42 16l2-2" stroke-width="1.5" />
+                        <!-- Geosynthetic Reinforcement Layers (Géogrilles) -->
+                        <path d="M14 23h36 M14 27h36" stroke-width="1.5" />
+                        <!-- Geogrid Cross-ribs -->
+                        <path d="M18 21v4 M26 21v4 M34 21v4 M42 21v4 M48 21v4" stroke-width="1" />
+                        <path d="M20 25v4 M28 25v4 M36 25v4 M44 25v4" stroke-width="1" />
+                        <!-- Rigid Inclusions / Stone Columns -->
+                        <path d="M22 27v22" stroke-width="3.5" stroke-dasharray="2 2" />
+                        <path d="M32 27v22" stroke-width="3.5" stroke-dasharray="2 2" />
+                        <path d="M42 27v22" stroke-width="3.5" stroke-dasharray="2 2" />
+                        <!-- Bedrock / Stable stratum -->
+                        <path d="M10 49h44" stroke-width="1.5" />
                     </svg>
                     Confortement &amp; Stabilisation
                 </h2>
