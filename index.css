@@ -1540,7 +1540,13 @@ html.fast-load body.loading {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
+}
+
+.loader-logo-mark {
+    width: 150px;
+    height: auto;
+    opacity: 0.95;
 }
 
 .loader-logo-text {
@@ -1584,6 +1590,9 @@ html.fast-load body.loading {
 }
 
 @media (max-width: 480px) {
+    .loader-logo-mark {
+        width: 110px;
+    }
     .loader-logo-text span {
         font-size: 1.9rem;
     }
