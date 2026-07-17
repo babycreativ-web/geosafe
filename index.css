@@ -1544,7 +1544,7 @@ html.fast-load body.loading {
 }
 
 .loader-logo-mark {
-    width: 150px;
+    width: 190px;
     height: auto;
     opacity: 0.95;
 }
@@ -1559,7 +1559,7 @@ html.fast-load body.loading {
 }
 
 .loader-logo-side {
-    height: 50px;
+    height: 65px;
     width: auto;
     display: block;
 }
@@ -1568,8 +1568,8 @@ html.fast-load body.loading {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
-    width: 29px; /* Proportional width (36/62 * 50) */
+    height: 65px;
+    width: 38px; /* Proportional width (36/62 * 65) */
     margin: 0 4px;
     perspective: 800px;
 }
@@ -1588,14 +1588,14 @@ html.fast-load body.loading {
 
 @media (max-width: 480px) {
     .loader-logo-mark {
-        width: 110px;
+        width: 140px;
     }
     .loader-logo-side {
-        height: 38px;
+        height: 48px;
     }
     .loader-o-wrapper {
-        height: 38px;
-        width: 22px; /* Proportional width (36/62 * 38) */
+        height: 48px;
+        width: 28px; /* Proportional width (36/62 * 48) */
         margin: 0 3px;
     }
 }
